@@ -1,0 +1,4 @@
+supercont1.7	CAW1_CUSTOM_GENE_9	start_codon	395017	395019	.	+	0	gene_id "CAWG_05061"; transcript_id "CAWT_05061";
+supercont1.7	CAW1_CUSTOM_GENE_9	stop_codon	396058	396060	.	+	0	gene_id "CAWG_05061"; transcript_id "CAWT_05061";
+supercont1.7	CAW1_CUSTOM_GENE_9	exon	395017	396060	.	+	.	gene_id "CAWG_05061"; transcript_id "CAWT_05061";
+supercont1.7	CAW1_CUSTOM_GENE_9	CDS	395017	396057	.	+	0	gene_id "CAWG_05061"; transcript_id "CAWT_05061";

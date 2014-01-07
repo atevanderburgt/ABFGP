@@ -1,0 +1,10 @@
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	start_codon	9960	9962	.	-	0	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	stop_codon	9318	9320	.	-	0	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	exon	9907	9962	.	-	.	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	CDS	9907	9962	.	-	0	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	exon	9692	9780	.	-	.	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	CDS	9692	9780	.	-	1	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	exon	9431	9634	.	-	.	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	CDS	9431	9634	.	-	2	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	exon	9318	9379	.	-	.	gene_id "BC1G_11316"; transcript_id "BC1T_11316";
+Botrytis%20cinerea%20supercontig%201.77	BC1_FINAL_CALLGENES_1	CDS	9321	9379	.	-	2	gene_id "BC1G_11316"; transcript_id "BC1T_11316";

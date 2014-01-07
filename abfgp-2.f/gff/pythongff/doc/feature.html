@@ -1,0 +1,156 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.76 [en] (X11; U; SunOS 5.7 sun4u) [Netscape]">
+</head>
+<body>
+
+<h1>
+&nbsp;<img SRC="birc-logo.gif" ALT="Birc Logo" height=50 width=50 align=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+BiRC Python GFF library.</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Version 1.0
+<br>&nbsp;
+<h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Class : Feature</h2>
+The feature class encapsulates one line of a gff file. Parameters specified
+with brackets as
+<br>in [strand], are optional parameters. Names in <i>italics</i> will
+refer to parameter values.
+<br>&nbsp;
+<h2>
+Constructors :</h2>
+&nbsp;&nbsp;&nbsp; <b>Feature(</b>line<b>)</b> :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constructs a new feature
+object from the string <i>line</i>. The various fields in line should be
+separated by tab characters.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An FeatureInputError exception
+is raised if the line is invalid.
+<p>&nbsp;&nbsp;&nbsp; <b>Feature():</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Creates an empty
+feature object (with default values)
+<h2>
+Access methods :</h2>
+
+<p><br>&nbsp;&nbsp;&nbsp; <b>seqname(</b>[name]<b>) :</b>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the sequence name
+of the feature. If <i>name</i> is specified then seqname will be assigned
+this value.
+<p>&nbsp;&nbsp;&nbsp; <b>source(</b>[name]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the source
+name of the feature (e.g.. "genbank") .If <i>name</i> is specified then
+source will be assigned this value.
+<p>&nbsp;&nbsp;&nbsp; <b>feature(</b>[name]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the feature
+name (e.g.. "gene"). If <i>name</i> is specified then source will be assigned
+this value.
+<p>&nbsp;&nbsp;&nbsp; <b>start(</b>[value]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the start
+position of a feature. If <i>value</i> is specified then start will be
+assigned this value.
+<p>&nbsp;&nbsp;&nbsp; <b>end(</b>[value]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the end position
+of the feature. Always the case that end() >= start().
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If <i>value</i> is specified
+then end will be assigned this value.
+<p>&nbsp;&nbsp;&nbsp; <b>score(</b>[value]<b>) :</b>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the score of this
+feature.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If <i>value</i> is specified
+then score will be assigned this value.
+<p>&nbsp;&nbsp;&nbsp; <b>strand(</b>[value]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the strand
+of this feature (e.g.. "+","-" or ".")
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If <i>value</i> is
+specified then strand will be assigned this value.
+<p>&nbsp;&nbsp;&nbsp; <b>frame(</b>[value]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the reading
+frame of this feature ("0","1","2" or ".")
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If <i>value</i> is specified
+then frame will be assigned this value.
+<p>&nbsp;&nbsp;&nbsp; <b>attribute(</b>[value]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the attribute
+of this feature (an optional string)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If <i>value</i> is specified
+then attribute will be assigned this value.
+<h2>
+Input/output methods :</h2>
+
+<p><br>&nbsp;&nbsp;&nbsp; <b>print </b>feature :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prints a string representation
+of the feature out to standard output. Note : this is
+<br>&nbsp;
+<h2>
+Methods :</h2>
+
+<p><br>&nbsp;&nbsp;&nbsp; <b>len </b>(feature) :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the lenght of the
+<i>feature</i>
+- defined as : feature.end() - feature.start() + 1.
+<p>&nbsp;&nbsp;&nbsp; <b>cmp</b>(f2) :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Compares the feature (<i>f1</i>)
+with feature
+ <i>f2</i> according to the lexicographical ordering of (start,end)
+coordinates.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; returns -1 if <i>f1</i>&lt;<i>f2</i>,
+0 if <i>f1</i>==<i>f2</i> and 1 if <i>f1</i>><i>f2</i>. This method is
+used by the sort method in the GFF class.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Operators such as : &lt;,
+>, &lt;=, =>, ==, can be used on two feature objects.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NB : comparisons are not
+strand sensitive.
+<p>&nbsp;&nbsp;&nbsp; <b>copy() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns a copy of
+this feature.
+<p>&nbsp;&nbsp;&nbsp; <b>remap(</b>offset<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Adds <i>offset</i>
+ot the features start and end coordinate - i.e. shifting the feature.
+<p>&nbsp;&nbsp;&nbsp; <b>overlap(</b>feature2,[strand]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Checks for overlaps
+between the feature and <i>feature2</i>. If <i>strand</i> is 1 then strands
+will be taken into
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; consideration when calculating
+the overlap. Returns 0 if no overlap otherwise returns the size of
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the overlap. Overlap between
+the two features (f1 and f2) is defined to be when one of the following
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; conditions are true :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. f2.start() &lt;= f1.end()
+&lt;= f2.end()
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. f1.start() &lt;= f2.end()
+&lt;= f1.end()
+<p>&nbsp;&nbsp;&nbsp; <b>merge(</b>feature2,[strand]<b>) :</b>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the two features overlaps
+(as specified in the <b>overlap</b> function) and taking <i>strand</i>
+into account,
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; then a merged feature (i.e.
+coordinates 10-30, and 20-40 will result in 10-40) will be returned.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns a new feature, where
+the other attributes of it will be the same as in the calling feature object.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If no overlap then it will
+just return None (null pointer).
+<p>&nbsp;&nbsp;&nbsp; <b>intersect</b>(feature2,[strand]<b>) :</b>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the two features overlaps
+(as specified in the <b>overlap</b> function) taking <i>strand</i> into
+account,
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; then the intersection of
+the calling feature and the other will be returned. If no intersection
+between the two
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; features exists then none
+(null pointer) will be returned. The intersection of for example two
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; features with coordinates
+10-30, and 20-40 wil result in a new feature with the coordinates 20-30
+and all other
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; attributes will be the same
+as the calling features attributes.
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

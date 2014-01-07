@@ -1,0 +1,10 @@
+scaffold_1	JGI	exon	3530755	3531068	.	+	.	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; transcriptId 320361
+scaffold_1	JGI	CDS	3531017	3531068	.	+	0	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; proteinId 320361; exonNumber 1
+scaffold_1	JGI	start_codon	3531017	3531019	.	+	0	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"
+scaffold_1	JGI	exon	3531226	3531684	.	+	.	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; transcriptId 320361
+scaffold_1	JGI	CDS	3531226	3531684	.	+	1	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; proteinId 320361; exonNumber 2
+scaffold_1	JGI	exon	3531778	3532273	.	+	.	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; transcriptId 320361
+scaffold_1	JGI	CDS	3531778	3532273	.	+	1	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; proteinId 320361; exonNumber 3
+scaffold_1	JGI	exon	3532454	3533325	.	+	.	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; transcriptId 320361
+scaffold_1	JGI	CDS	3532454	3532496	.	+	2	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"; proteinId 320361; exonNumber 4
+scaffold_1	JGI	stop_codon	3532494	3532496	.	+	0	gene_id "CRYPA_320361"; name "fgenesh1_kg.1_#_441_#_72_3_CCBH_CCBI_EXTA"

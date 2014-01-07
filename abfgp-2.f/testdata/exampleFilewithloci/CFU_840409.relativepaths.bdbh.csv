@@ -1,0 +1,53 @@
+# identifier               : CFU_840409
+# genomedirs_to_ignore     : []
+# genomedirs_to_use        : []
+# search_mode              : BDBH
+# allow_paralogs           : False
+# safeorthologs_ratio      : 0.9
+# maximal_length_ratio     : 1.5
+# maximal_num_loci         : 30
+# minimal_bitscore_ratio   : 0.1
+# minimal_num_loci         : 5
+# minimal_overlap_ratio    : 0.7
+# similarity data
+cfu	necha	CFU_840409	NECHA_081019	549	0.9103	0.9313	0.4816	0.4549
+cfu	crypa	CFU_840409	CRYPA_060701	508	0.9955	0.9733	0.4452	0.4331
+cfu	triat	CFU_840409	TRIAT_302304	259	0.8251	0.7004	0.2274	0.2027
+cfu	anid	CFU_840409	ANID_07180T0	239	0.9641	0.9683	0.2095	0.2128
+cfu	afla	CFU_840409	AFL2T_04909	231	0.9731	0.9688	0.2025	0.2048
+cfu	aory	CFU_840409	AO090011000113	229	0.9731	0.9688	0.2007	0.2027
+cfu	mycgr	CFU_840409	MYCGR_068483	226	0.9596	0.9769	0.1981	0.2045
+cfu	anig	CFU_840409	ANIG_8099	219	0.9641	1.0	0.1919	0.1968
+cfu	vdb	CFU_840409	VDBG_09076T0	218	0.9731	0.9609	0.1911	0.1883
+cfu	vda	CFU_840409	VDAG_07225T0	216	0.843	0.8217	0.1893	0.1864
+cfu	fgsg	CFU_840409	FGSG_02342	209	0.9552	0.9558	0.1832	0.4543
+cfu	mycfi	CFU_840409	MYCFI_43984	203	0.8072	0.8182	0.1779	0.18
+cfu	fveg	CFU_840409	FVEG_03395	202	0.9821	0.9615	0.177	0.443
+cfu	cheC5	CFU_840409	CHEC5_112762	201	0.9731	0.9513	0.1762	0.1745
+cfu	foxg	CFU_840409	FOXG_16606	200	0.9462	0.9217	0.1753	0.4425
+cfu	ptr	CFU_840409	PTRT_05435	185	0.9865	0.8577	0.1621	0.146
+cfu	sno	CFU_840409	SNOT_16132	180	0.9596	0.8932	0.1578	0.1509
+cfu	mgg	CFU_840409	MGG_00734	135	1.0	0.9694	0.1183	0.3
+cfu	boci	CFU_840409	BC1T_02936	117	0.8251	0.8762	0.1025	0.1154
+# target locus
+testdata/exampleAbgpLocusDirs/CFU_840409/CFU_840409
+# informant loci
+testdata/exampleAbgpLocusDirs/CFU_840409/NECHA_081019
+testdata/exampleAbgpLocusDirs/CFU_840409/CRYPA_060701
+testdata/exampleAbgpLocusDirs/CFU_840409/TRIAT_302304
+testdata/exampleAbgpLocusDirs/CFU_840409/ANID_07180
+testdata/exampleAbgpLocusDirs/CFU_840409/AFL2G_04909
+testdata/exampleAbgpLocusDirs/CFU_840409/AO090011000113
+testdata/exampleAbgpLocusDirs/CFU_840409/MYCGR_068483
+testdata/exampleAbgpLocusDirs/CFU_840409/ANIG_8099
+testdata/exampleAbgpLocusDirs/CFU_840409/VDBG_09076
+testdata/exampleAbgpLocusDirs/CFU_840409/VDAG_07225
+testdata/exampleAbgpLocusDirs/CFU_840409/FGSG_02342
+testdata/exampleAbgpLocusDirs/CFU_840409/MYCFI_43984
+testdata/exampleAbgpLocusDirs/CFU_840409/FVEG_03395
+testdata/exampleAbgpLocusDirs/CFU_840409/CHEC5_112762
+testdata/exampleAbgpLocusDirs/CFU_840409/FOXG_16606
+testdata/exampleAbgpLocusDirs/CFU_840409/PTRG_05435
+testdata/exampleAbgpLocusDirs/CFU_840409/SNOG_16132
+testdata/exampleAbgpLocusDirs/CFU_840409/MGG_00734
+testdata/exampleAbgpLocusDirs/CFU_840409/BC1G_02936

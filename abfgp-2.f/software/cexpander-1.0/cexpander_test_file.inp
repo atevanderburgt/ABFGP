@@ -1,0 +1,15 @@
+$load
+test.report
+test_aligned.aus
+
+$addquery
+-1
+
+$run
+
+$dumpentries
+
+$dumpcv 
+
+$exit
+

@@ -1,0 +1,10 @@
+contig_17	JGI	exon	208614	208716	.	+	.	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; transcriptId 255011
+contig_17	JGI	CDS	208665	208716	.	+	0	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; proteinId 255011; exonNumber 1
+contig_17	JGI	start_codon	208665	208667	.	+	0	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"
+contig_17	JGI	exon	208853	209311	.	+	.	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; transcriptId 255011
+contig_17	JGI	CDS	208853	209311	.	+	1	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; proteinId 255011; exonNumber 2
+contig_17	JGI	exon	209374	209869	.	+	.	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; transcriptId 255011
+contig_17	JGI	CDS	209374	209869	.	+	1	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; proteinId 255011; exonNumber 3
+contig_17	JGI	exon	209958	210384	.	+	.	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; transcriptId 255011
+contig_17	JGI	CDS	209958	209997	.	+	2	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"; proteinId 255011; exonNumber 4
+contig_17	JGI	stop_codon	209995	209997	.	+	0	gene_id "TRIAT_255011"; name "fgenesh1_kg.contig_17_#_39_#_CBWT_CBYP_CBYT_CCAH_311_1"

@@ -1,0 +1,12 @@
+scf7180000126528	experimentHvdB	peptideFragment	11514	11573	1	+	.	peptide GATADDVIRDEALLNQYGLK
+scf7180000126528	experimentHvdB	peptideFragment	11574	11609	1	+	.	peptide ANDAILAEESHK; proteinId CFU_830687
+scf7180000126528	experimentHvdB	peptideFragment	11610	11648	1	+	.	peptide SLYEELIQNRDAK; proteinId CFU_830687
+scf7180000126528	experimentHvdB	peptideFragment	11649	11684	1	+	.	peptide LLAGGAAQNTAR; proteinId CFU_830687
+scf7180000126528	experimentHvdB	peptideFragment	11685	11693	1	+	.	peptide GAQYLLPADSVVFFGAVGK; proteinId CFU_830687; spliced True
+scf7180000126528	experimentHvdB	peptideFragment	11685	11741	1	+	.	peptide GAQVCLSLAISHAVVGHSR
+scf7180000126528	experimentHvdB	peptideFragment	11899	11946	1	+	.	peptide GAQYLLPADSVVFFGAVGK; proteinId CFU_830687; spliced True
+scf7180000126528	experimentHvdB	peptideFragment	12427	12453	1	+	.	peptide THDIPTIAK; proteinId CFU_830687
+scf7180000126528	experimentHvdB	peptideFragment	12496	12561	1	+	.	peptide VAIITQGTDPTIIAVQDEGEPK; proteinId CFU_830687
+scf7180000126528	experimentHvdB	peptideFragment	12562	12588	1	+	.	peptide SFPVHQINK; proteinId CFU_830687
+scf7180000126528	experimentHvdB	peptideFragment	12688	12731	1	+	.	peptide GSWLAALSLRELGPSYPFPK; proteinId CFU_830687; spliced True
+scf7180000126528	experimentHvdB	peptideFragment	12793	12808	1	+	.	peptide GSWLAALSLRELGPSYPFPK; proteinId CFU_830687; spliced True

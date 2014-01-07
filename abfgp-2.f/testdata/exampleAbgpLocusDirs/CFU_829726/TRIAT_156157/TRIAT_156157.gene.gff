@@ -1,0 +1,6 @@
+contig_17	JGI	exon	300628	301499	.	+	.	gene_id "TRIAT_156157"; name "Triat1.estExt_Genewise1Plus.C_120174"; transcriptId 156157
+contig_17	JGI	CDS	300692	301499	.	+	0	gene_id "TRIAT_156157"; name "Triat1.estExt_Genewise1Plus.C_120174"; proteinId 156157; exonNumber 1
+contig_17	JGI	start_codon	300692	300694	.	+	0	gene_id "TRIAT_156157"; name "Triat1.estExt_Genewise1Plus.C_120174"
+contig_17	JGI	exon	301563	302395	.	+	.	gene_id "TRIAT_156157"; name "Triat1.estExt_Genewise1Plus.C_120174"; transcriptId 156157
+contig_17	JGI	CDS	301563	302155	.	+	1	gene_id "TRIAT_156157"; name "Triat1.estExt_Genewise1Plus.C_120174"; proteinId 156157; exonNumber 2
+contig_17	JGI	stop_codon	302153	302155	.	+	0	gene_id "TRIAT_156157"; name "Triat1.estExt_Genewise1Plus.C_120174"

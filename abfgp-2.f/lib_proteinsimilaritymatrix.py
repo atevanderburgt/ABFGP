@@ -1,0 +1,2 @@
+from parsers.proteinsimilaritymatrix import *
+from parsers.proteinsimilaritymatrix import _generate_alignment_match

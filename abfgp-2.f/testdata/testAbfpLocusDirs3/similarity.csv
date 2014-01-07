@@ -1,0 +1,26 @@
+# ./abgpdbwarehouseminer.py --identifier MGG_03577 --minimal_num_loci 4 --outdir results/sodwlMGG_03577 --createoutputdir --force
+# --db /home/avdb/data/fungalgenomes
+# --search_mode SAFEORTHOLOGS
+# --minimal_overlap_ratio 0.7
+# --minimal_bitscore_ratio 0.1
+# --maximal_length_ratio 1.25
+# --allow_paralogs False
+# --safeorthologs_ratio 0.9
+# --select_num_loci 10
+# --minimal_num_loci 4
+# --genomedirs_to_ignore []
+# --genomedirs_to_use []
+mgg	boci	MGG_03577	BC1T_11316	636	1.0	1.0	2.3731	0.9326
+mgg	aory	MGG_03577	AO090020000007	619	0.9779	0.985	2.3097	0.9239
+mgg	afla	MGG_03577	AFL2T_11262	619	0.9779	0.985	2.3097	0.9239
+mgg	mycgr	MGG_03577	MYCGR_106181	614	0.9779	0.9853	2.291	0.8977
+mgg	anid	MGG_03577	ANID_03468T0	611	0.9779	0.9848	2.2799	0.9216
+mgg	sno	MGG_03577	SNOT_14611	602	0.9779	0.9851	2.2463	0.8958
+mgg	ptr	MGG_03577	PTRT_03280	602	0.9779	0.9851	2.2463	0.8958
+mgg	ss1	MGG_03577	SS1T_10959	560	1.0	1.0	2.0896	0.8655
+mgg	cnag	MGG_03577	CNAG_06747T0	492	1.0	1.0	1.8358	0.7688
+mgg	anig	MGG_03577	ANIG_1627	323	0.9044	0.9203	1.2052	0.4708
+mgg	ncu	MGG_03577	NCU02437	258	1.0	1.0	0.9627	0.981
+mgg	fveg	MGG_03577	FVEG_05100	258	1.0	1.0	0.9627	0.981
+mgg	foxg	MGG_03577	FOXG_08173	258	1.0	1.0	0.9627	0.981
+mgg	fgsg	MGG_03577	FGSG_11627	252	1.0	1.0	0.9403	0.9582

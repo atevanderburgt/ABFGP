@@ -1,0 +1,4 @@
+scaffold_29	JGI	exon	214570	214632	.	+	.	gene_id "MYCFI_04930"; name "gw1.29.74.1"; transcriptId 4930
+scaffold_29	JGI	CDS	214570	214632	.	+	0	gene_id "MYCFI_04930"; name "gw1.29.74.1"; proteinId 4930; exonNumber 1
+scaffold_29	JGI	exon	214692	215699	.	+	.	gene_id "MYCFI_04930"; name "gw1.29.74.1"; transcriptId 4930
+scaffold_29	JGI	CDS	214692	215699	.	+	0	gene_id "MYCFI_04930"; name "gw1.29.74.1"; proteinId 4930; exonNumber 2

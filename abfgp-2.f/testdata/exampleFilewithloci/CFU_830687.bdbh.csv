@@ -1,0 +1,67 @@
+# identifier               : CFU_830687
+# genomedirs_to_ignore     : []
+# genomedirs_to_use        : []
+# search_mode              : BDBH
+# allow_paralogs           : False
+# safeorthologs_ratio      : 0.9
+# maximal_length_ratio     : 1.5
+# maximal_num_loci         : 30
+# minimal_bitscore_ratio   : 0.1
+# minimal_num_loci         : 5
+# minimal_overlap_ratio    : 0.7
+# similarity data
+cfu	dotse	CFU_830687	DOTSE_069160	1729	1.0	1.0	0.9526	0.9316
+cfu	crypa	CFU_830687	CRYPA_320361	1228	0.9942	0.9914	0.6766	0.6627
+cfu	triat	CFU_830687	TRIAT_255011	1219	0.9971	0.9971	0.6719	0.6624
+cfu	necha	CFU_830687	NECHA_060239	1207	0.9884	0.9914	0.665	0.6588
+cfu	mycfi	CFU_830687	MYCFI_71050	600	1.0	1.0	0.3306	0.3328
+cfu	mycgr	CFU_830687	MYCGR_108301	571	0.9913	0.9942	0.3146	0.31
+cfu	ncu	CFU_830687	NCU00414	490	0.9884	0.7577	0.27	0.5326
+cfu	fgsg	CFU_830687	FGSG_06932	484	0.9884	0.8056	0.2667	0.5628
+cfu	foxg	CFU_830687	FOXG_01888	474	0.9884	0.7908	0.2612	0.538
+cfu	fveg	CFU_830687	FVEG_08266	471	0.9884	0.7836	0.2595	0.5322
+cfu	boci	CFU_830687	BC1T_06571	471	0.9971	0.9943	0.2595	0.2589
+cfu	anid	CFU_830687	ANID_02272T0	468	0.9942	0.9915	0.2579	0.2543
+cfu	mgg	CFU_830687	MGG_06270	465	0.9884	0.9858	0.2562	0.6577
+cfu	cps	CFU_830687	CPSG_01245T0	458	0.9942	1.0	0.2523	0.2507
+cfu	cim	CFU_830687	CIMT_06245	458	0.9942	1.0	0.2523	0.2505
+cfu	ss1	CFU_830687	SS1T_00597	457	0.9653	0.9767	0.2518	0.2572
+cfu	hca	CFU_830687	HCAG_08512T0	451	0.9884	0.9914	0.2485	0.247
+cfu	vda	CFU_830687	VDAG_05941T0	450	0.9971	1.0	0.2479	0.2521
+cfu	aory	CFU_830687	AO090009000617	435	0.9971	0.9916	0.2397	0.233
+cfu	afla	CFU_830687	AFL2T_10111	435	0.9971	0.9914	0.2397	0.2377
+cfu	cheC5	CFU_830687	CHEC5_009714	430	0.974	0.9856	0.2369	0.2382
+cfu	sno	CFU_830687	SNOT_02070	428	0.9798	0.9885	0.2358	0.238
+cfu	cawg	CFU_830687	CAWG_05061	381	0.9798	0.9942	0.2099	0.5482
+cfu	vdb	CFU_830687	VDBG_06881T0	368	0.8439	0.8189	0.2028	0.1996
+cfu	pgt	CFU_830687	PGTT_03432	288	0.9595	0.9747	0.1587	0.1592
+cfu	cnag	CFU_830687	CNAG_06489T0	255	0.9566	0.9693	0.1405	0.1407
+# target locus
+/home/avdb/storage/abfgp/dbwarehouse21122009/cfu/loci/CFU_830687
+# informant loci
+/home/avdb/storage/abfgp/dbwarehouse21122009/dotse/loci/DOTSE_069160
+/home/avdb/storage/abfgp/dbwarehouse21122009/crypa/loci/CRYPA_320361
+/home/avdb/storage/abfgp/dbwarehouse21122009/triat/loci/TRIAT_255011
+/home/avdb/storage/abfgp/dbwarehouse21122009/necha/loci/NECHA_060239
+/home/avdb/storage/abfgp/dbwarehouse21122009/mycfi/loci/MYCFI_71050
+/home/avdb/storage/abfgp/dbwarehouse21122009/mycgr/loci/MYCGR_108301
+/home/avdb/storage/abfgp/dbwarehouse21122009/ncu/loci/NCU00414
+/home/avdb/storage/abfgp/dbwarehouse21122009/fgsg/loci/FGSG_06932
+/home/avdb/storage/abfgp/dbwarehouse21122009/foxg/loci/FOXG_01888
+/home/avdb/storage/abfgp/dbwarehouse21122009/fveg/loci/FVEG_08266
+/home/avdb/storage/abfgp/dbwarehouse21122009/boci/loci/BC1G_06571
+/home/avdb/storage/abfgp/dbwarehouse21122009/anid/loci/ANID_02272
+/home/avdb/storage/abfgp/dbwarehouse21122009/mgg/loci/MGG_06270
+/home/avdb/storage/abfgp/dbwarehouse21122009/cps/loci/CPSG_01245
+/home/avdb/storage/abfgp/dbwarehouse21122009/cim/loci/CIMG_06031
+/home/avdb/storage/abfgp/dbwarehouse21122009/ss1/loci/SS1G_00597
+/home/avdb/storage/abfgp/dbwarehouse21122009/hca/loci/HCAG_08512
+/home/avdb/storage/abfgp/dbwarehouse21122009/vda/loci/VDAG_05941
+/home/avdb/storage/abfgp/dbwarehouse21122009/aory/loci/AO090009000617
+/home/avdb/storage/abfgp/dbwarehouse21122009/afla/loci/AFL2G_10111
+/home/avdb/storage/abfgp/dbwarehouse21122009/cheC5/loci/CHEC5_009714
+/home/avdb/storage/abfgp/dbwarehouse21122009/sno/loci/SNOG_02070
+/home/avdb/storage/abfgp/dbwarehouse21122009/cawg/loci/CAWG_05061
+/home/avdb/storage/abfgp/dbwarehouse21122009/vdb/loci/VDBG_06881
+/home/avdb/storage/abfgp/dbwarehouse21122009/pgt/loci/PGTG_03432
+/home/avdb/storage/abfgp/dbwarehouse21122009/cnag/loci/CNAG_06489

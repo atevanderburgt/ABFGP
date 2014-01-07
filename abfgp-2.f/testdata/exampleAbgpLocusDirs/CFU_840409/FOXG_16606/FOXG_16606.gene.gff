@@ -1,0 +1,6 @@
+supercontig_2.35	FO2_FINAL_CALLGENES_1	start_codon	335847	335849	.	-	0	gene_id "FOXG_16606"; transcript_id "FOXT_16606";
+supercontig_2.35	FO2_FINAL_CALLGENES_1	stop_codon	335092	335094	.	-	0	gene_id "FOXG_16606"; transcript_id "FOXT_16606";
+supercontig_2.35	FO2_FINAL_CALLGENES_1	exon	335655	335849	.	-	.	gene_id "FOXG_16606"; transcript_id "FOXT_16606";
+supercontig_2.35	FO2_FINAL_CALLGENES_1	CDS	335655	335849	.	-	0	gene_id "FOXG_16606"; transcript_id "FOXT_16606";
+supercontig_2.35	FO2_FINAL_CALLGENES_1	exon	335092	335589	.	-	.	gene_id "FOXG_16606"; transcript_id "FOXT_16606";
+supercontig_2.35	FO2_FINAL_CALLGENES_1	CDS	335095	335589	.	-	0	gene_id "FOXG_16606"; transcript_id "FOXT_16606";

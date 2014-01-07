@@ -1,0 +1,4 @@
+scaffold_8	JGI	exon	762583	764079	.	+	.	gene_id "CHEC5_086510"; name "estExt_Genewise1.C_80469"; transcriptId 86510
+scaffold_8	JGI	CDS	762693	763994	.	+	0	gene_id "CHEC5_086510"; name "estExt_Genewise1.C_80469"; proteinId 86510; exonNumber 1
+scaffold_8	JGI	start_codon	762693	762695	.	+	0	gene_id "CHEC5_086510"; name "estExt_Genewise1.C_80469"
+scaffold_8	JGI	stop_codon	763992	763994	.	+	0	gene_id "CHEC5_086510"; name "estExt_Genewise1.C_80469"

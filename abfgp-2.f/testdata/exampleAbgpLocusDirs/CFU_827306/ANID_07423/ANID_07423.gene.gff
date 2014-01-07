@@ -1,0 +1,16 @@
+supercontig_1.129	AN1_FINAL_CALLGENES_2	start_codon	9063	9065	.	+	0	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	stop_codon	11145	11147	.	+	0	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	8879	9103	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	9063	9103	.	+	0	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	9168	9319	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	9168	9319	.	+	1	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	9382	9472	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	9382	9472	.	+	2	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	9519	10059	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	9519	10059	.	+	1	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	10109	10730	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	10109	10730	.	+	0	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	10776	11001	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	10776	11001	.	+	2	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	exon	11054	11147	.	+	.	gene_id "ANID_07423"; transcript_id "ANID_07423T0";
+supercontig_1.129	AN1_FINAL_CALLGENES_2	CDS	11054	11144	.	+	1	gene_id "ANID_07423"; transcript_id "ANID_07423T0";

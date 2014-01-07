@@ -1,0 +1,10 @@
+sca_5_chr5_3_0	JGI	exon	1189193	1189286	.	+	.	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; transcriptId 69505
+sca_5_chr5_3_0	JGI	CDS	1189249	1189286	.	+	0	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; proteinId 69505; exonNumber 1
+sca_5_chr5_3_0	JGI	start_codon	1189249	1189251	.	+	0	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"
+sca_5_chr5_3_0	JGI	exon	1189337	1189588	.	+	.	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; transcriptId 69505
+sca_5_chr5_3_0	JGI	CDS	1189337	1189588	.	+	2	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; proteinId 69505; exonNumber 2
+sca_5_chr5_3_0	JGI	exon	1189637	1191082	.	+	.	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; transcriptId 69505
+sca_5_chr5_3_0	JGI	CDS	1189637	1191082	.	+	2	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; proteinId 69505; exonNumber 3
+sca_5_chr5_3_0	JGI	exon	1191136	1191235	.	+	.	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; transcriptId 69505
+sca_5_chr5_3_0	JGI	CDS	1191136	1191235	.	+	2	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"; proteinId 69505; exonNumber 4
+sca_5_chr5_3_0	JGI	stop_codon	1191233	1191235	.	+	0	gene_id "NECHA_069505"; name "estExt_Genewise1Plus.C_sca_5_chr5_3_00667"

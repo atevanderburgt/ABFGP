@@ -1,0 +1,67 @@
+# identifier               : CFU_827701
+# genomedirs_to_ignore     : []
+# genomedirs_to_use        : []
+# search_mode              : BDBH
+# allow_paralogs           : False
+# safeorthologs_ratio      : 0.9
+# maximal_length_ratio     : 1.5
+# maximal_num_loci         : 30
+# minimal_bitscore_ratio   : 0.1
+# minimal_num_loci         : 5
+# minimal_overlap_ratio    : 0.7
+# similarity data
+cfu	dotse	CFU_827701	DOTSE_070160	2661	1.0	1.0	0.9903	0.9627
+cfu	necha	CFU_827701	NECHA_061339	1824	0.9882	0.9844	0.6788	0.6554
+cfu	triat	CFU_827701	TRIAT_155802	1807	0.9843	0.9805	0.6725	0.6502
+cfu	crypa	CFU_827701	CRYPA_341138	907	1.0	1.0	0.3376	0.3089
+cfu	mycfi	CFU_827701	MYCFI_64684	847	1.0	1.0	0.3152	0.3146
+cfu	mycgr	CFU_827701	MYCGR_065057	813	1.0	1.0	0.3026	0.292
+cfu	ptr	CFU_827701	PTRT_03275	730	0.9843	0.9843	0.2717	0.2731
+cfu	cheC5	CFU_827701	CHEC5_113631	724	0.9804	0.9804	0.2694	0.2728
+cfu	anid	CFU_827701	ANID_06394T0	724	0.9902	0.9922	0.2694	0.2711
+cfu	afla	CFU_827701	AFL2T_03078	721	0.9902	0.9922	0.2683	0.2694
+cfu	hca	CFU_827701	HCAG_05837T0	716	0.9804	0.9728	0.2665	0.2632
+cfu	aory	CFU_827701	AO090012000150	712	0.9902	0.9924	0.265	0.2594
+cfu	mgg	CFU_827701	MGG_05949	694	0.9843	0.9825	0.2583	0.6628
+cfu	ncu	CFU_827701	NCU08924	692	0.9843	0.9732	0.2575	0.6541
+cfu	fgsg	CFU_827701	FGSG_10285	690	0.9902	0.9902	0.2568	0.666
+cfu	foxg	CFU_827701	FOXG_05118	683	0.9882	0.9844	0.2542	0.6561
+cfu	fveg	CFU_827701	FVEG_03014	682	0.9843	0.9805	0.2538	0.6551
+cfu	ss1	CFU_827701	SS1T_00878	665	0.9843	0.9844	0.2475	0.2475
+cfu	vda	CFU_827701	VDAG_00200T0	649	0.9882	0.894	0.2415	0.2213
+cfu	vdb	CFU_827701	VDBG_00589T0	646	0.9882	0.9806	0.2404	0.2407
+cfu	sno	CFU_827701	SNOT_12016	632	0.9843	0.984	0.2352	0.2415
+cfu	boci	CFU_827701	BC1T_09012	575	0.8588	0.8611	0.214	0.2144
+cfu	cnag	CFU_827701	CNAG_03666T0	563	0.9902	0.9749	0.2095	0.2109
+cfu	pgt	CFU_827701	PGTT_08781	547	0.9824	0.9469	0.2036	0.207
+cfu	cps	CFU_827701	CPSG_06470T0	342	0.9843	0.9835	0.1273	0.1173
+cfu	cim	CFU_827701	CIMT_09125	342	0.9843	0.9835	0.1273	0.1175
+# target locus
+testdata/exampleAbgpLocusDirs/CFU_827701/CFU_827701
+# informant loci
+testdata/exampleAbgpLocusDirs/CFU_827701/DOTSE_070160
+testdata/exampleAbgpLocusDirs/CFU_827701/NECHA_061339
+testdata/exampleAbgpLocusDirs/CFU_827701/TRIAT_155802
+testdata/exampleAbgpLocusDirs/CFU_827701/CRYPA_341138
+testdata/exampleAbgpLocusDirs/CFU_827701/MYCFI_64684
+testdata/exampleAbgpLocusDirs/CFU_827701/MYCGR_065057
+testdata/exampleAbgpLocusDirs/CFU_827701/PTRG_03275
+testdata/exampleAbgpLocusDirs/CFU_827701/CHEC5_113631
+testdata/exampleAbgpLocusDirs/CFU_827701/ANID_06394
+testdata/exampleAbgpLocusDirs/CFU_827701/AFL2G_03078
+testdata/exampleAbgpLocusDirs/CFU_827701/HCAG_05837
+testdata/exampleAbgpLocusDirs/CFU_827701/AO090012000150
+testdata/exampleAbgpLocusDirs/CFU_827701/MGG_05949
+testdata/exampleAbgpLocusDirs/CFU_827701/NCU08924
+testdata/exampleAbgpLocusDirs/CFU_827701/FGSG_10285
+testdata/exampleAbgpLocusDirs/CFU_827701/FOXG_05118
+testdata/exampleAbgpLocusDirs/CFU_827701/FVEG_03014
+testdata/exampleAbgpLocusDirs/CFU_827701/SS1G_00878
+testdata/exampleAbgpLocusDirs/CFU_827701/VDAG_00200
+testdata/exampleAbgpLocusDirs/CFU_827701/VDBG_00589
+testdata/exampleAbgpLocusDirs/CFU_827701/SNOG_12016
+testdata/exampleAbgpLocusDirs/CFU_827701/BC1G_09012
+testdata/exampleAbgpLocusDirs/CFU_827701/CNAG_03666
+testdata/exampleAbgpLocusDirs/CFU_827701/PGTG_08781
+testdata/exampleAbgpLocusDirs/CFU_827701/CPSG_06470
+testdata/exampleAbgpLocusDirs/CFU_827701/CIMG_08838

@@ -1,0 +1,6 @@
+supercont1.2	CPS1_FINAL_CALLGENES_1	start_codon	271641	271643	.	+	0	gene_id "CPSG_02433"; transcript_id "CPSG_02433T0";
+supercont1.2	CPS1_FINAL_CALLGENES_1	stop_codon	272068	272070	.	+	0	gene_id "CPSG_02433"; transcript_id "CPSG_02433T0";
+supercont1.2	CPS1_FINAL_CALLGENES_1	exon	271641	271769	.	+	.	gene_id "CPSG_02433"; transcript_id "CPSG_02433T0";
+supercont1.2	CPS1_FINAL_CALLGENES_1	CDS	271641	271769	.	+	0	gene_id "CPSG_02433"; transcript_id "CPSG_02433T0";
+supercont1.2	CPS1_FINAL_CALLGENES_1	exon	271879	272070	.	+	.	gene_id "CPSG_02433"; transcript_id "CPSG_02433T0";
+supercont1.2	CPS1_FINAL_CALLGENES_1	CDS	271879	272067	.	+	0	gene_id "CPSG_02433"; transcript_id "CPSG_02433T0";

@@ -1,0 +1,10 @@
+chr_6	JGI	exon	1640843	1640957	.	-	.	name "estExt_fgenesh1_pg.C_chr_60366"; transcriptId 109907
+chr_6	JGI	CDS	1640843	1640957	.	-	0	name "estExt_fgenesh1_pg.C_chr_60366"; gene_id 109907; exonNumber 4
+chr_6	JGI	stop_codon	1640843	1640845	.	-	0	name "estExt_fgenesh1_pg.C_chr_60366"
+chr_6	JGI	exon	1641023	1642580	.	-	.	name "estExt_fgenesh1_pg.C_chr_60366"; transcriptId 109907
+chr_6	JGI	CDS	1641023	1642580	.	-	1	name "estExt_fgenesh1_pg.C_chr_60366"; gene_id 109907; exonNumber 3
+chr_6	JGI	exon	1642637	1642857	.	-	.	name "estExt_fgenesh1_pg.C_chr_60366"; transcriptId 109907
+chr_6	JGI	CDS	1642637	1642857	.	-	2	name "estExt_fgenesh1_pg.C_chr_60366"; gene_id 109907; exonNumber 2
+chr_6	JGI	exon	1643111	1643157	.	-	.	name "estExt_fgenesh1_pg.C_chr_60366"; transcriptId 109907
+chr_6	JGI	CDS	1643111	1643157	.	-	1	name "estExt_fgenesh1_pg.C_chr_60366"; gene_id 109907; exonNumber 1
+chr_6	JGI	start_codon	1643155	1643157	.	-	0	name "estExt_fgenesh1_pg.C_chr_60366"

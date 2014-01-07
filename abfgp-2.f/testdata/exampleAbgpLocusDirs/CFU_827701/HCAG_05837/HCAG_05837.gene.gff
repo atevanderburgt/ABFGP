@@ -1,0 +1,6 @@
+supercont1.7	HC1_FINAL_CALLGENES_3	start_codon	655134	655136	.	-	0	gene_id "HCAG_05837"; transcript_id "HCAG_05837T0";
+supercont1.7	HC1_FINAL_CALLGENES_3	stop_codon	653493	653495	.	-	0	gene_id "HCAG_05837"; transcript_id "HCAG_05837T0";
+supercont1.7	HC1_FINAL_CALLGENES_3	exon	654302	655324	.	-	.	gene_id "HCAG_05837"; transcript_id "HCAG_05837T0";
+supercont1.7	HC1_FINAL_CALLGENES_3	CDS	654302	655136	.	-	0	gene_id "HCAG_05837"; transcript_id "HCAG_05837T0";
+supercont1.7	HC1_FINAL_CALLGENES_3	exon	653376	654205	.	-	.	gene_id "HCAG_05837"; transcript_id "HCAG_05837T0";
+supercont1.7	HC1_FINAL_CALLGENES_3	CDS	653496	654205	.	-	2	gene_id "HCAG_05837"; transcript_id "HCAG_05837T0";

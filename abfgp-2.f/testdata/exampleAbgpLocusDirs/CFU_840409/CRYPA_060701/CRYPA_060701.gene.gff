@@ -1,0 +1,6 @@
+scaffold_4	JGI	exon	3907498	3907668	.	+	.	gene_id "CRYPA_060701"; name "Crypa1.fgenesh1_pm.C_scaffold_2000638"; transcriptId 60701
+scaffold_4	JGI	CDS	3907498	3907668	.	+	0	gene_id "CRYPA_060701"; name "Crypa1.fgenesh1_pm.C_scaffold_2000638"; proteinId 60701; exonNumber 1
+scaffold_4	JGI	start_codon	3907498	3907500	.	+	0	gene_id "CRYPA_060701"; name "Crypa1.fgenesh1_pm.C_scaffold_2000638"
+scaffold_4	JGI	exon	3907747	3908253	.	+	.	gene_id "CRYPA_060701"; name "Crypa1.fgenesh1_pm.C_scaffold_2000638"; transcriptId 60701
+scaffold_4	JGI	CDS	3907747	3908253	.	+	0	gene_id "CRYPA_060701"; name "Crypa1.fgenesh1_pm.C_scaffold_2000638"; proteinId 60701; exonNumber 2
+scaffold_4	JGI	stop_codon	3908251	3908253	.	+	0	gene_id "CRYPA_060701"; name "Crypa1.fgenesh1_pm.C_scaffold_2000638"

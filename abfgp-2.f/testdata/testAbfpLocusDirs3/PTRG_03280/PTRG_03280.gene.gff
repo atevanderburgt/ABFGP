@@ -1,0 +1,8 @@
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	start_codon	2918975	2918977	.	+	0	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	stop_codon	2919585	2919587	.	+	0	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	exon	2918862	2919030	.	+	.	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	CDS	2918975	2919030	.	+	0	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	exon	2919186	2919478	.	+	.	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	CDS	2919186	2919478	.	+	1	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	exon	2919532	2919780	.	+	.	gene_id "PTRG_03280"; transcript_id "PTRT_03280";
+supercontig_1.2	PTR_1_FINAL_CALLGENES_1	CDS	2919532	2919584	.	+	2	gene_id "PTRG_03280"; transcript_id "PTRT_03280";

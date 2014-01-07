@@ -1,0 +1,12 @@
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	start_codon	2265203	2265205	.	+	0	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	stop_codon	2266962	2266964	.	+	0	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	exon	2265203	2265829	.	+	.	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	CDS	2265203	2265829	.	+	0	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	exon	2265893	2266154	.	+	.	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	CDS	2265893	2266154	.	+	0	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	exon	2266208	2266520	.	+	.	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	CDS	2266208	2266520	.	+	2	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	exon	2266568	2266807	.	+	.	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	CDS	2266568	2266807	.	+	1	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	exon	2266868	2266964	.	+	.	gene_id "SS1G_00878"; transcript_id "SS1T_00878";
+Sclerotinia%20sclerotiorum%20supercontig%201.1	SS1_FINAL_CALLGENES_1	CDS	2266868	2266961	.	+	1	gene_id "SS1G_00878"; transcript_id "SS1T_00878";

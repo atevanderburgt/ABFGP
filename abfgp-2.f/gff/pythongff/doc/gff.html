@@ -1,0 +1,200 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.76 [en] (X11; U; SunOS 5.7 sun4u) [Netscape]">
+</head>
+<body>
+
+<h1>
+&nbsp;<img SRC="birc-logo.gif" ALT="Birc Logo" height=50 width=50 align=LEFT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+BiRC Python GFF library.</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Version 1.0
+<br>&nbsp;
+<h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Class : GFF</h2>
+The GFF class encapsulates a whole gff file and defines operations on this
+object. The class can basically be
+<br>viewed as a container for Feature objects - these are represented in
+a list like way in the gff object. Parameters
+<br>specified with brackets as in [strand], are optional parameters. Names
+in <i>italics</i> will refer to parameter values.
+<h2>
+Constructors :</h2>
+
+<p><br>&nbsp;&nbsp;&nbsp; <b>GFF</b> <b>(</b>gfffile<b>)</b> <b>:</b>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns a GFF object constructed
+from the <i>gfffile</i>. Checking on correct format is performed - An GFF_IOError
+is raised if
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the file could not be opened.
+Only version 2.0 gff files are allowed, which is the default version used
+today.
+<p>&nbsp;&nbsp;&nbsp; <b>GFF():</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Constructs an empty
+gff object with no features.
+<h2>
+Access methods :</h2>
+&nbsp;&nbsp;&nbsp; <b>gff[i]</b> :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the i'th feature
+in the <i>gff</i>.
+<p>&nbsp;&nbsp;&nbsp; <b>for </b>feature<b> in </b>gff<b> :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Used to run through
+all the features in the <i>gff</i> object.
+<p>&nbsp;&nbsp;&nbsp; feature<b> in </b>gff :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns true if the <i>feature</i>
+is in the <i>gff</i> object, otherwise returns false. The check is done
+using the <b>cmp</b> function in
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the feature class. If one
+or more features in the <i>gff</i> matches <i>feature</i>, according to
+the <b>cmp</b> function then this statement
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; will return true.
+<p>&nbsp;&nbsp;&nbsp; <b>features() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns a list containing
+the feature objects that are in the gff object. The list is unordered unless
+<b>sort()</b>
+is called
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; first on the list.
+<br>&nbsp;
+<h2>
+Input/output methods :</h2>
+
+<p><br>&nbsp;&nbsp;&nbsp; <b>print </b>gff :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prints a string representation
+of all the features in the <i>gff </i>object out to standard output. Note
+: this method is NOT invoked on
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the object (i.e. not gff.print(),
+but instead print gff)).
+<br>&nbsp;
+<p>&nbsp;&nbsp;&nbsp; <b>save(</b>filename,[overwrite]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Saves the gff object
+to a file with <i>filename</i>. if <i>overwrite</i> is set to 1, then the
+file is overwritten. Default is 0.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns 1 if data has been
+written, return 0 if no data has been written (i.e. if the file exists
+and <i>overwrite</i> is 0)
+<br>&nbsp;
+<h2>
+Methods :</h2>
+
+<p><br>&nbsp;&nbsp;&nbsp; <b>len </b>(gff) :
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the length of the
+<i>gff</i>
+object - defined as the number of features. Note : this method is NOT invoked
+on the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; object (i.e. nogt gff.len(),
+but instead use len(gff)).
+<p>&nbsp;&nbsp;&nbsp; <b>sort(</b>[cmp function]<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Sorts the features
+in the gff according to the lexical ordering of (feature.start(), feature.end()).
+Not strand sensitive. An
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; optional <i>cmp function</i>
+can be specifiend. This function must take two feature objects (f1 and
+f2)&nbsp; and return -1, if
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f1&lt;f2, 0 if f1==f2 and
+1 if f1>f2
+<p>&nbsp;&nbsp;&nbsp; <b>minStart() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the minimum
+start coordinate of all the features in the gff.
+<p>&nbsp;&nbsp;&nbsp; <b>minEnd() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the minimum
+end coordinate of all the features in the gff.
+<p>&nbsp;&nbsp;&nbsp; <b>maxStart() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the maximum
+start coordinate of all the features in the gff.
+<p>&nbsp;&nbsp;&nbsp; <b>maxEnd() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the maximum
+end coordinate of all the features in the gff.
+<p>&nbsp;&nbsp;&nbsp; <b>append(</b>feature<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Appends the <i>feature</i>
+to the gff. No checking for duplicates is done.
+<p>&nbsp;&nbsp;&nbsp; <b>add(</b>gff<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Adds copies of the
+features found in <i>gff</i> to this object. Concatenation of two gff objects
+can also be
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; accomplished by 'gff1+gff2',
+since the '+' operator is overloaded. This function is the same as a
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; union of the two objects,
+but not checking for duplicates.
+<p>&nbsp; <b>copy() :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns a copy of
+the gff object - not a reference.
+<p>&nbsp;&nbsp;&nbsp; <b>remap(</b>offset<b>) :</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Add <i>offset</i>
+to all the coordinates of the features in the gff - i.e. shifts all coordinates
+by <i>offset</i>.
+<p>&nbsp;&nbsp;&nbsp; <b>featureLength():</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns the total
+length of all the features
+<p>&nbsp;&nbsp;&nbsp; <b>intersect(</b>gff2,[strand]<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns a new gff
+object where for each overlap between the calling object and <i>gff2</i>,
+there will be a feature.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fx. if the calling object
+have two features (10-30, 50-70) and gff2 have features (20-40 and 60-80)
+then
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the gff object, that is
+return will have the two features (20-30 and 60-70) with the same attributes
+as in the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calling object. If <i>strand
+</i>is
+defined to 1 then the intersection will be strand sensitive. Returns None
+if none
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of the features overlap.
+<p>&nbsp;&nbsp;&nbsp; <b>mergeself(</b>[strand]<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Merges any overlapping
+features (depending on strand if strand is 1 - default for strand is 0)
+in the gff.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After this call <b>overlappingFeatures(</b>strand<b>)</b>
+for the gff will be 0.
+<p>&nbsp;&nbsp;&nbsp; <b>calculate(</b>gffpredicted,featurenames<b>):&nbsp;
+(*so far assumes that no overlapping feature exists in either object*)</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Compares the features
+(only using the features in the list with <i>featurenames</i> - default
+is all) in the gff (true) to <i>gffpredicted</i>.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns a tuple containing
+(Sensitivity,specificity,ac,cc,acp).
+<p>&nbsp;&nbsp;&nbsp; <b>remove(</b>feature<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Removes the <i>feature</i>
+(a reference to a feature object) from the gff
+<p>&nbsp;&nbsp;&nbsp; <b>strands(</b>strand<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b><i>Strand</i> can
+be either '+', '-' or '.'. This function returns a new gff object containing
+copies to of all features with
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the specified <i>strand</i>.
+<p>&nbsp;&nbsp;&nbsp; <b>featureNames(</b>featurenamelist<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Returns a new gff
+object containing copies of all features that matches one of the names
+specified in the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>featurenamelist</i>.
+NB - matching is case sensitive.
+<p>&nbsp;&nbsp;&nbsp; <b>filter(</b>seqname,source,feature,strand,frame<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>returns a new gff
+where the features are filtered according to the paremeters. <i>seqname</i>
+is a list of sequence names, that
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the features must match.
+<i>source </i>is also a list of names that the features source field must
+match to be included in the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; returned gff. Same for <i>feature.
+strand</i> is either '+' or '-' and <i>frame</i> is either 0,1 or 2. All
+combinations of specifying the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parameters can be used.
+Only those paremeters defined will be used for the filtering.
+<p>&nbsp;&nbsp;&nbsp; <b>overlappingFeatures(</b>[strand]<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Checks the gff for
+any features overlapping. If strand is defined to 1 then the overlaps will
+be strand sensitive.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the number of features
+overlapping with others. If 0 then none of the features overlap.
+<p>&nbsp;&nbsp;&nbsp; <b>measures(</b>gffpredicted,featurenames<b>):</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>Compares the features
+(only using the features in the list with <i>featurenames</i> - default
+is all) in the gff (true) to <i>gffpredicted</i>.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns a tuple containing
+(TN,TP,FP,FN) for the nucletides.
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

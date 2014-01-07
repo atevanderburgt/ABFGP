@@ -1,0 +1,6 @@
+contig_27	JGI	exon	4728366	4728826	.	+	.	gene_id "TRIAT_302304"; name "estExt_fgenesh1_kg.C_contig_270938"; transcriptId 302304
+contig_27	JGI	CDS	4728402	4728826	.	+	0	gene_id "TRIAT_302304"; name "estExt_fgenesh1_kg.C_contig_270938"; proteinId 302304; exonNumber 1
+contig_27	JGI	start_codon	4728402	4728404	.	+	0	gene_id "TRIAT_302304"; name "estExt_fgenesh1_kg.C_contig_270938"
+contig_27	JGI	exon	4728902	4729390	.	+	.	gene_id "TRIAT_302304"; name "estExt_fgenesh1_kg.C_contig_270938"; transcriptId 302304
+contig_27	JGI	CDS	4728902	4729220	.	+	2	gene_id "TRIAT_302304"; name "estExt_fgenesh1_kg.C_contig_270938"; proteinId 302304; exonNumber 2
+contig_27	JGI	stop_codon	4729218	4729220	.	+	0	gene_id "TRIAT_302304"; name "estExt_fgenesh1_kg.C_contig_270938"

@@ -1,0 +1,10 @@
+contig_24	JGI	exon	1059765	1059873	.	+	.	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; transcriptId 139326
+contig_24	JGI	CDS	1059836	1059873	.	+	0	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; proteinId 139326; exonNumber 1
+contig_24	JGI	start_codon	1059836	1059838	.	+	0	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"
+contig_24	JGI	exon	1059934	1060185	.	+	.	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; transcriptId 139326
+contig_24	JGI	CDS	1059934	1060185	.	+	2	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; proteinId 139326; exonNumber 2
+contig_24	JGI	exon	1060241	1061662	.	+	.	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; transcriptId 139326
+contig_24	JGI	CDS	1060241	1061662	.	+	2	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; proteinId 139326; exonNumber 3
+contig_24	JGI	exon	1061732	1062053	.	+	.	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; transcriptId 139326
+contig_24	JGI	CDS	1061732	1061822	.	+	2	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"; proteinId 139326; exonNumber 4
+contig_24	JGI	stop_codon	1061820	1061822	.	+	0	gene_id "TRIAT_139326"; name "Triat1.estExt_Genewise1.C_41309"

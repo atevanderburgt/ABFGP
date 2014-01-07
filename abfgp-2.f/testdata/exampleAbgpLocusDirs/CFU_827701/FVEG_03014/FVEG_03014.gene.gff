@@ -1,0 +1,10 @@
+supercont3.3	FV3_FINAL_CALLGENES_1	start_codon	1462470	1462472	.	+	0	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	stop_codon	1464173	1464175	.	+	0	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	exon	1462393	1463291	.	+	.	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	CDS	1462470	1463291	.	+	0	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	exon	1463343	1463619	.	+	.	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	CDS	1463343	1463619	.	+	0	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	exon	1463680	1463788	.	+	.	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	CDS	1463680	1463788	.	+	2	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	exon	1463839	1464247	.	+	.	gene_id "FVEG_03014"; transcript_id "FVET_03018";
+supercont3.3	FV3_FINAL_CALLGENES_1	CDS	1463839	1464172	.	+	1	gene_id "FVEG_03014"; transcript_id "FVET_03018";

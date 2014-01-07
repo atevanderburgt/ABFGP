@@ -1,0 +1,6 @@
+supercontig_1.5	PTR_1_FINAL_CALLGENES_1	start_codon	401216	401218	.	-	0	gene_id "PTRG_05435"; transcript_id "PTRT_05435";
+supercontig_1.5	PTR_1_FINAL_CALLGENES_1	stop_codon	400409	400411	.	-	0	gene_id "PTRG_05435"; transcript_id "PTRT_05435";
+supercontig_1.5	PTR_1_FINAL_CALLGENES_1	exon	401039	401388	.	-	.	gene_id "PTRG_05435"; transcript_id "PTRT_05435";
+supercontig_1.5	PTR_1_FINAL_CALLGENES_1	CDS	401039	401218	.	-	0	gene_id "PTRG_05435"; transcript_id "PTRT_05435";
+supercontig_1.5	PTR_1_FINAL_CALLGENES_1	exon	400260	400990	.	-	.	gene_id "PTRG_05435"; transcript_id "PTRT_05435";
+supercontig_1.5	PTR_1_FINAL_CALLGENES_1	CDS	400412	400990	.	-	0	gene_id "PTRG_05435"; transcript_id "PTRT_05435";

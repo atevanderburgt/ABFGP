@@ -1,0 +1,6 @@
+sca_33_chr6_1_0	JGI	exon	117816	118007	.	+	.	gene_id "NECHA_081019"; name "fgenesh1_pg.sca_33_chr6_1_0000054"; transcriptId 81019
+sca_33_chr6_1_0	JGI	CDS	117816	118007	.	+	0	gene_id "NECHA_081019"; name "fgenesh1_pg.sca_33_chr6_1_0000054"; proteinId 81019; exonNumber 1
+sca_33_chr6_1_0	JGI	start_codon	117816	117818	.	+	0	gene_id "NECHA_081019"; name "fgenesh1_pg.sca_33_chr6_1_0000054"
+sca_33_chr6_1_0	JGI	exon	118060	118569	.	+	.	gene_id "NECHA_081019"; name "fgenesh1_pg.sca_33_chr6_1_0000054"; transcriptId 81019
+sca_33_chr6_1_0	JGI	CDS	118060	118569	.	+	0	gene_id "NECHA_081019"; name "fgenesh1_pg.sca_33_chr6_1_0000054"; proteinId 81019; exonNumber 2
+sca_33_chr6_1_0	JGI	stop_codon	118567	118569	.	+	0	gene_id "NECHA_081019"; name "fgenesh1_pg.sca_33_chr6_1_0000054"

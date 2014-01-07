@@ -1,0 +1,9 @@
+supercontig_2.5	FO2_FINAL_CALLGENES_1	start_codon	1758231	1758233	.	+	0	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	stop_codon	1759969	1759971	.	+	0	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	exon	1757942	1758030	.	+	.	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	exon	1758083	1758334	.	+	.	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	CDS	1758231	1758334	.	+	0	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	exon	1758381	1759817	.	+	.	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	CDS	1758381	1759817	.	+	1	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	exon	1759872	1760141	.	+	.	gene_id "FOXG_05284"; transcript_id "FOXT_05284";
+supercontig_2.5	FO2_FINAL_CALLGENES_1	CDS	1759872	1759968	.	+	1	gene_id "FOXG_05284"; transcript_id "FOXT_05284";

@@ -1,0 +1,14 @@
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	start_codon	1646490	1646492	.	-	0	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	stop_codon	1644907	1644909	.	-	0	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	1646441	1646492	.	-	.	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	1646441	1646492	.	-	0	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	1646103	1646281	.	-	.	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	1646103	1646281	.	-	2	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	1645678	1646019	.	-	.	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	1645678	1646019	.	-	0	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	1645256	1645593	.	-	.	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	1645256	1645593	.	-	0	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	1645089	1645202	.	-	.	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	1645089	1645202	.	-	1	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	1644907	1644952	.	-	.	gene_id "AO090009000617"; transcript_id "null";
+supercontig_1.1	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	1644910	1644952	.	-	1	gene_id "AO090009000617"; transcript_id "null";

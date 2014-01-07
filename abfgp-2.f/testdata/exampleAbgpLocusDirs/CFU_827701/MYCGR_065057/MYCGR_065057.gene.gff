@@ -1,0 +1,10 @@
+chr_1	JGI	exon	745888	746421	.	-	.	name "estExt_Genewise1Plus.C_chr_10295"; transcriptId 65057
+chr_1	JGI	CDS	745954	746421	.	-	0	name "estExt_Genewise1Plus.C_chr_10295"; gene_id 65057; exonNumber 4
+chr_1	JGI	stop_codon	745954	745956	.	-	0	name "estExt_Genewise1Plus.C_chr_10295"
+chr_1	JGI	exon	746475	746698	.	-	.	name "estExt_Genewise1Plus.C_chr_10295"; transcriptId 65057
+chr_1	JGI	CDS	746475	746698	.	-	0	name "estExt_Genewise1Plus.C_chr_10295"; gene_id 65057; exonNumber 3
+chr_1	JGI	exon	746756	747566	.	-	.	name "estExt_Genewise1Plus.C_chr_10295"; transcriptId 65057
+chr_1	JGI	CDS	746756	747566	.	-	2	name "estExt_Genewise1Plus.C_chr_10295"; gene_id 65057; exonNumber 2
+chr_1	JGI	exon	747623	747681	.	-	.	name "estExt_Genewise1Plus.C_chr_10295"; transcriptId 65057
+chr_1	JGI	CDS	747623	747658	.	-	0	name "estExt_Genewise1Plus.C_chr_10295"; gene_id 65057; exonNumber 1
+chr_1	JGI	start_codon	747656	747658	.	-	0	name "estExt_Genewise1Plus.C_chr_10295"

@@ -1,0 +1,8 @@
+supercontig_3.6	FG3_FINAL_CALLGENES_1	start_codon	2976656	2976658	.	+	0	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	stop_codon	2977188	2977190	.	+	0	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	exon	2976546	2976711	.	+	.	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	CDS	2976656	2976711	.	+	0	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	exon	2976791	2977083	.	+	.	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	CDS	2976791	2977083	.	+	1	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	exon	2977135	2977367	.	+	.	gene_id "FGSG_11627"; transcript_id "FGST_11323";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	CDS	2977135	2977187	.	+	2	gene_id "FGSG_11627"; transcript_id "FGST_11323";

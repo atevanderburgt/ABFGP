@@ -1,0 +1,6 @@
+scaffold_26	JGI	exon	168370	169568	.	+	.	gene_id "CHEC5_113631"; name "estExt_Genewise1Plus.C_260104"; transcriptId 113631
+scaffold_26	JGI	CDS	168370	169568	.	+	0	gene_id "CHEC5_113631"; name "estExt_Genewise1Plus.C_260104"; proteinId 113631; exonNumber 1
+scaffold_26	JGI	start_codon	168370	168372	.	+	0	gene_id "CHEC5_113631"; name "estExt_Genewise1Plus.C_260104"
+scaffold_26	JGI	exon	169688	170226	.	+	.	gene_id "CHEC5_113631"; name "estExt_Genewise1Plus.C_260104"; transcriptId 113631
+scaffold_26	JGI	CDS	169688	170024	.	+	2	gene_id "CHEC5_113631"; name "estExt_Genewise1Plus.C_260104"; proteinId 113631; exonNumber 2
+scaffold_26	JGI	stop_codon	170022	170024	.	+	0	gene_id "CHEC5_113631"; name "estExt_Genewise1Plus.C_260104"

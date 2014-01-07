@@ -1,0 +1,10 @@
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	start_codon	125442	125444	.	+	0	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	stop_codon	127455	127457	.	+	0	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	exon	125442	125473	.	+	.	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	CDS	125442	125473	.	+	0	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	exon	125535	125795	.	+	.	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	CDS	125535	125795	.	+	1	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	exon	125857	127296	.	+	.	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	CDS	125857	127296	.	+	1	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	exon	127358	127457	.	+	.	gene_id "NCU03606"; transcript_id "NCUT_03306";
+Neurospora crassa contig 7.11	NC7_FINAL_CALLGENES_3	CDS	127358	127454	.	+	1	gene_id "NCU03606"; transcript_id "NCUT_03306";

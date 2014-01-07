@@ -1,0 +1,8 @@
+supercontig_1.108	AN1_FINAL_CALLGENES_2	start_codon	34077	34079	.	+	0	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	stop_codon	35749	35751	.	+	0	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	exon	34077	34683	.	+	.	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	CDS	34077	34683	.	+	0	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	exon	34756	34981	.	+	.	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	CDS	34756	34981	.	+	2	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	exon	35046	35751	.	+	.	gene_id "ANID_06394"; transcript_id "ANID_06394T0";
+supercontig_1.108	AN1_FINAL_CALLGENES_2	CDS	35046	35748	.	+	1	gene_id "ANID_06394"; transcript_id "ANID_06394T0";

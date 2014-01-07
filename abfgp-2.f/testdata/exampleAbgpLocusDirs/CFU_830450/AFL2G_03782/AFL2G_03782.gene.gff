@@ -1,0 +1,4 @@
+supercontig_2.3	AFL2_CALLGENES_3	start_codon	2411514	2411516	.	-	0	gene_id "AFL2G_03782"; transcript_id "AFL2T_03782";
+supercontig_2.3	AFL2_CALLGENES_3	stop_codon	2410338	2410340	.	-	0	gene_id "AFL2G_03782"; transcript_id "AFL2T_03782";
+supercontig_2.3	AFL2_CALLGENES_3	exon	2410315	2411516	.	-	.	gene_id "AFL2G_03782"; transcript_id "AFL2T_03782";
+supercontig_2.3	AFL2_CALLGENES_3	CDS	2410341	2411516	.	-	0	gene_id "AFL2G_03782"; transcript_id "AFL2T_03782";

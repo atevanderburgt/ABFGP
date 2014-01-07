@@ -1,0 +1,8 @@
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	start_codon	108097	108099	.	+	0	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	stop_codon	108976	108978	.	+	0	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	exon	108097	108315	.	+	.	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	CDS	108097	108315	.	+	0	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	exon	108441	108655	.	+	.	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	CDS	108441	108655	.	+	0	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	exon	108708	108978	.	+	.	gene_id "SNOG_16132"; transcript_id "SNOT_16132";
+Phaeosphaeria%20nodorum%20supercontig%201.43	SN1_CALLGENES_5	CDS	108708	108975	.	+	1	gene_id "SNOG_16132"; transcript_id "SNOT_16132";

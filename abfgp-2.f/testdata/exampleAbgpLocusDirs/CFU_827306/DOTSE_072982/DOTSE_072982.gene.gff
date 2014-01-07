@@ -1,0 +1,8 @@
+scaffold_7	JGI	exon	265418	265659	.	-	.	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"; transcriptId 73024
+scaffold_7	JGI	CDS	265542	265659	.	-	0	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"; proteinId 72982; exonNumber 3
+scaffold_7	JGI	stop_codon	265542	265544	.	-	0	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"
+scaffold_7	JGI	exon	265726	267286	.	-	.	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"; transcriptId 73024
+scaffold_7	JGI	CDS	265726	267286	.	-	1	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"; proteinId 72982; exonNumber 2
+scaffold_7	JGI	exon	267339	267589	.	-	.	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"; transcriptId 73024
+scaffold_7	JGI	CDS	267339	267525	.	-	2	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"; proteinId 72982; exonNumber 1
+scaffold_7	JGI	start_codon	267523	267525	.	-	0	gene_id "DOTSE_072982"; name "estExt_fgenesh1_kg.C_7_t10080"

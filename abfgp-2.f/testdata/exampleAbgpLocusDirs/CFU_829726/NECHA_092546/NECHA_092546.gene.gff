@@ -1,0 +1,6 @@
+sca_3_chr4_2_0	JGI	exon	677019	677611	.	-	.	gene_id "NECHA_092546"; name "fgenesh1_pm.sca_3_chr4_2_0000161"; transcriptId 92546
+sca_3_chr4_2_0	JGI	CDS	677019	677611	.	-	0	gene_id "NECHA_092546"; name "fgenesh1_pm.sca_3_chr4_2_0000161"; proteinId 92546; exonNumber 2
+sca_3_chr4_2_0	JGI	stop_codon	677019	677021	.	-	0	gene_id "NECHA_092546"; name "fgenesh1_pm.sca_3_chr4_2_0000161"
+sca_3_chr4_2_0	JGI	exon	677670	678498	.	-	.	gene_id "NECHA_092546"; name "fgenesh1_pm.sca_3_chr4_2_0000161"; transcriptId 92546
+sca_3_chr4_2_0	JGI	CDS	677670	678498	.	-	2	gene_id "NECHA_092546"; name "fgenesh1_pm.sca_3_chr4_2_0000161"; proteinId 92546; exonNumber 1
+sca_3_chr4_2_0	JGI	start_codon	678496	678498	.	-	0	gene_id "NECHA_092546"; name "fgenesh1_pm.sca_3_chr4_2_0000161"

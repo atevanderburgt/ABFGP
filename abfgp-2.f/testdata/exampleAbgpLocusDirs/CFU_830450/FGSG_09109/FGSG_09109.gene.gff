@@ -1,0 +1,4 @@
+supercontig_3.6	FG3_FINAL_CALLGENES_1	start_codon	520837	520839	.	+	0	gene_id "FGSG_09109"; transcript_id "FGST_10460";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	stop_codon	521986	521988	.	+	0	gene_id "FGSG_09109"; transcript_id "FGST_10460";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	exon	520837	521988	.	+	.	gene_id "FGSG_09109"; transcript_id "FGST_10460";
+supercontig_3.6	FG3_FINAL_CALLGENES_1	CDS	520837	521985	.	+	0	gene_id "FGSG_09109"; transcript_id "FGST_10460";

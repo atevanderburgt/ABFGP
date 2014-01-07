@@ -1,0 +1,10 @@
+supercontig_3.1	FG3_FINAL_CALLGENES_1	start_codon	7530571	7530573	.	-	0	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	stop_codon	7529681	7529683	.	-	0	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	exon	7530492	7530573	.	-	.	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	CDS	7530492	7530573	.	-	0	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	exon	7530277	7530389	.	-	.	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	CDS	7530277	7530389	.	-	2	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	exon	7530009	7530226	.	-	.	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	CDS	7530009	7530226	.	-	0	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	exon	7529681	7529948	.	-	.	gene_id "FGSG_02342"; transcript_id "FGST_02682";
+supercontig_3.1	FG3_FINAL_CALLGENES_1	CDS	7529684	7529948	.	-	1	gene_id "FGSG_02342"; transcript_id "FGST_02682";

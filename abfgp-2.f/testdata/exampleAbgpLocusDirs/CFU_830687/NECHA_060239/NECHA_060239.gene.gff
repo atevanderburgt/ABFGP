@@ -1,0 +1,10 @@
+sca_3_chr4_2_0	JGI	exon	2022010	2022090	.	+	.	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; transcriptId 60239
+sca_3_chr4_2_0	JGI	CDS	2022039	2022090	.	+	0	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; proteinId 60239; exonNumber 1
+sca_3_chr4_2_0	JGI	start_codon	2022039	2022041	.	+	0	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"
+sca_3_chr4_2_0	JGI	exon	2022205	2022663	.	+	.	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; transcriptId 60239
+sca_3_chr4_2_0	JGI	CDS	2022205	2022663	.	+	1	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; proteinId 60239; exonNumber 2
+sca_3_chr4_2_0	JGI	exon	2022719	2023214	.	+	.	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; transcriptId 60239
+sca_3_chr4_2_0	JGI	CDS	2022719	2023214	.	+	1	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; proteinId 60239; exonNumber 3
+sca_3_chr4_2_0	JGI	exon	2023393	2023667	.	+	.	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; transcriptId 60239
+sca_3_chr4_2_0	JGI	CDS	2023393	2023429	.	+	2	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"; proteinId 60239; exonNumber 4
+sca_3_chr4_2_0	JGI	stop_codon	2023427	2023429	.	+	0	gene_id "NECHA_060239"; name "estExt_Genewise1.C_sca_3_chr4_2_01082"

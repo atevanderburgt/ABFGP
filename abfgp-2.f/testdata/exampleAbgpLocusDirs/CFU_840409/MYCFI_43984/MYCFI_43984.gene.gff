@@ -1,0 +1,8 @@
+scaffold_23	JGI	exon	428210	428380	.	+	.	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"; transcriptId 43984
+scaffold_23	JGI	CDS	428210	428380	.	+	0	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"; proteinId 43984; exonNumber 1
+scaffold_23	JGI	start_codon	428210	428212	.	+	0	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"
+scaffold_23	JGI	exon	428442	428659	.	+	.	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"; transcriptId 43984
+scaffold_23	JGI	CDS	428442	428659	.	+	0	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"; proteinId 43984; exonNumber 2
+scaffold_23	JGI	exon	428708	428981	.	+	.	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"; transcriptId 43984
+scaffold_23	JGI	CDS	428708	428981	.	+	2	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"; proteinId 43984; exonNumber 3
+scaffold_23	JGI	stop_codon	428979	428981	.	+	0	gene_id "MYCFI_43984"; name "e_gw1.23.103.1"

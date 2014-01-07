@@ -1,0 +1,10 @@
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	start_codon	2359665	2359667	.	-	0	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	stop_codon	2358254	2358256	.	-	0	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	exon	2359616	2359667	.	-	.	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	CDS	2359616	2359667	.	-	0	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	exon	2358960	2359418	.	-	.	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	CDS	2358960	2359418	.	-	2	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	exon	2358374	2358875	.	-	.	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	CDS	2358374	2358875	.	-	2	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	exon	2358254	2358296	.	-	.	gene_id "MGG_06270"; transcript_id "MGT_07228";
+Magnaporthe grisea 70-15 supercontig 5.190	MG5_FINAL_CALLGENES_1	CDS	2358257	2358296	.	-	1	gene_id "MGG_06270"; transcript_id "MGT_07228";

@@ -1,0 +1,6 @@
+supercontig_1.122	AN1_FINAL_CALLGENES_2	start_codon	141569	141571	.	-	0	gene_id "ANID_07180"; transcript_id "ANID_07180T0";
+supercontig_1.122	AN1_FINAL_CALLGENES_2	stop_codon	140845	140847	.	-	0	gene_id "ANID_07180"; transcript_id "ANID_07180T0";
+supercontig_1.122	AN1_FINAL_CALLGENES_2	exon	141389	141571	.	-	.	gene_id "ANID_07180"; transcript_id "ANID_07180T0";
+supercontig_1.122	AN1_FINAL_CALLGENES_2	CDS	141389	141571	.	-	0	gene_id "ANID_07180"; transcript_id "ANID_07180T0";
+supercontig_1.122	AN1_FINAL_CALLGENES_2	exon	140845	141327	.	-	.	gene_id "ANID_07180"; transcript_id "ANID_07180T0";
+supercontig_1.122	AN1_FINAL_CALLGENES_2	CDS	140848	141327	.	-	0	gene_id "ANID_07180"; transcript_id "ANID_07180T0";

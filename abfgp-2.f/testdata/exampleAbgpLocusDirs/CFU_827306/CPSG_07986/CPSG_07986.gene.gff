@@ -1,0 +1,14 @@
+supercont1.5	CPS1_FINAL_CALLGENES_1	start_codon	3445937	3445939	.	-	0	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	stop_codon	3443834	3443836	.	-	0	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	exon	3445908	3446047	.	-	.	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	CDS	3445908	3445939	.	-	0	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	exon	3445703	3445854	.	-	.	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	CDS	3445703	3445854	.	-	1	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	exon	3445558	3445648	.	-	.	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	CDS	3445558	3445648	.	-	2	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	exon	3444953	3445493	.	-	.	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	CDS	3444953	3445493	.	-	1	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	exon	3443995	3444893	.	-	.	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	CDS	3443995	3444893	.	-	0	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	exon	3443703	3443936	.	-	.	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";
+supercont1.5	CPS1_FINAL_CALLGENES_1	CDS	3443837	3443936	.	-	1	gene_id "CPSG_07986"; transcript_id "CPSG_07986T0";

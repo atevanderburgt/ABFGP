@@ -1,0 +1,12 @@
+scaffold_16	JGI	exon	112292	112560	.	-	.	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; transcriptId 91325
+scaffold_16	JGI	CDS	112446	112560	.	-	0	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; proteinId 91325; exonNumber 5
+scaffold_16	JGI	stop_codon	112446	112448	.	-	0	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"
+scaffold_16	JGI	exon	112610	114043	.	-	.	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; transcriptId 91325
+scaffold_16	JGI	CDS	112610	114043	.	-	1	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; proteinId 91325; exonNumber 4
+scaffold_16	JGI	exon	114093	114183	.	-	.	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; transcriptId 91325
+scaffold_16	JGI	CDS	114093	114183	.	-	1	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; proteinId 91325; exonNumber 3
+scaffold_16	JGI	exon	114233	114393	.	-	.	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; transcriptId 91325
+scaffold_16	JGI	CDS	114233	114393	.	-	2	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; proteinId 91325; exonNumber 2
+scaffold_16	JGI	exon	114442	114504	.	-	.	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; transcriptId 91325
+scaffold_16	JGI	CDS	114442	114476	.	-	1	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"; proteinId 91325; exonNumber 1
+scaffold_16	JGI	start_codon	114474	114476	.	-	0	gene_id "CHEC5_091325"; name "estExt_Genewise1.C_160104"

@@ -1,0 +1,12 @@
+scaffold_20	JGI	exon	766879	767139	.	-	.	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; transcriptId 71050
+scaffold_20	JGI	CDS	767100	767139	.	-	0	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; proteinId 71050; exonNumber 5
+scaffold_20	JGI	stop_codon	767100	767102	.	-	0	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"
+scaffold_20	JGI	exon	767199	767641	.	-	.	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; transcriptId 71050
+scaffold_20	JGI	CDS	767199	767641	.	-	1	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; proteinId 71050; exonNumber 4
+scaffold_20	JGI	exon	767699	768034	.	-	.	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; transcriptId 71050
+scaffold_20	JGI	CDS	767699	768034	.	-	0	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; proteinId 71050; exonNumber 3
+scaffold_20	JGI	exon	768400	768553	.	-	.	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; transcriptId 71050
+scaffold_20	JGI	CDS	768400	768553	.	-	0	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; proteinId 71050; exonNumber 2
+scaffold_20	JGI	exon	768651	768739	.	-	.	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; transcriptId 71050
+scaffold_20	JGI	CDS	768651	768718	.	-	1	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"; proteinId 71050; exonNumber 1
+scaffold_20	JGI	start_codon	768716	768718	.	-	0	gene_id "MYCFI_71050"; name "estExt_fgenesh1_kg.C_200014"

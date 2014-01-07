@@ -1,0 +1,12 @@
+supercont2.4	CI2_FINAL_CALLGENES_3	start_codon	4062338	4062340	.	-	0	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	stop_codon	4060442	4060444	.	-	0	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	exon	4062226	4062378	.	-	.	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	CDS	4062226	4062340	.	-	0	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	exon	4062144	4062155	.	-	.	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	CDS	4062144	4062155	.	-	2	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	exon	4061804	4062084	.	-	.	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	CDS	4061804	4062084	.	-	2	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	exon	4060989	4061730	.	-	.	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	CDS	4060989	4061730	.	-	0	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	exon	4060436	4060935	.	-	.	gene_id "CIMG_08838"; transcript_id "CIMT_09125";
+supercont2.4	CI2_FINAL_CALLGENES_3	CDS	4060445	4060935	.	-	2	gene_id "CIMG_08838"; transcript_id "CIMT_09125";

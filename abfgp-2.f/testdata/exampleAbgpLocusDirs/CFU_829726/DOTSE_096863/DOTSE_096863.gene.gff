@@ -1,0 +1,2 @@
+scaffold_2	JGI	exon	667148	668332	.	+	.	gene_id "DOTSE_096863"; name "gw1.2.375.1"; transcriptId 96905
+scaffold_2	JGI	CDS	667148	668332	.	+	0	gene_id "DOTSE_096863"; name "gw1.2.375.1"; proteinId 96863; exonNumber 1

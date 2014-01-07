@@ -1,0 +1,4 @@
+supercontig_1.14	PTR_1_FINAL_CALLGENES_1	start_codon	114638	114640	.	+	0	gene_id "PTRG_10470"; transcript_id "PTRT_10470";
+supercontig_1.14	PTR_1_FINAL_CALLGENES_1	stop_codon	115949	115951	.	+	0	gene_id "PTRG_10470"; transcript_id "PTRT_10470";
+supercontig_1.14	PTR_1_FINAL_CALLGENES_1	exon	114638	116181	.	+	.	gene_id "PTRG_10470"; transcript_id "PTRT_10470";
+supercontig_1.14	PTR_1_FINAL_CALLGENES_1	CDS	114638	115948	.	+	0	gene_id "PTRG_10470"; transcript_id "PTRT_10470";

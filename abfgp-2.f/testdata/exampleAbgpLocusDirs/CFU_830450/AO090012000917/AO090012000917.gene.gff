@@ -1,0 +1,4 @@
+supercontig_1.12	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	start_codon	2368743	2368745	.	-	0	gene_id "AO090012000917"; transcript_id "null";
+supercontig_1.12	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	stop_codon	2367567	2367569	.	-	0	gene_id "AO090012000917"; transcript_id "null";
+supercontig_1.12	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	exon	2367567	2368745	.	-	.	gene_id "AO090012000917"; transcript_id "null";
+supercontig_1.12	A_oryzae_RIB40_INSERTASSEMBLYFROMGENBANK_1	CDS	2367570	2368745	.	-	0	gene_id "AO090012000917"; transcript_id "null";

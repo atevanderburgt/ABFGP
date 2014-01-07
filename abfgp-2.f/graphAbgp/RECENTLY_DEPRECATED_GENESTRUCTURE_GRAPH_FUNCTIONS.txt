@@ -1,0 +1,504 @@
+class RecentlyDeprecated:
+
+    def find_optimal_splicesites_of_uniform_phase(self):
+        """
+        Re-order aligned splicesites in such way that the best site have the same phase
+        """
+        for i in range(1,len(self)):
+            # get combinations of 2 neighbouring CBGs
+            (first,second) = self.codingblockgraphs[i-1:i+1]
+            poscombi = (i-1,i)
+            # ignore if one of them IS_IGNORED
+            if True in [ cbg.IS_IGNORED for cbg in (first,second) ]:
+                continue
+            # ignore if combination is created by a split
+            if [ first.IS_3P_SPLITTED, second.IS_5P_SPLITTED ] == [True,True]:
+                continue
+            # check if both have splice site collections assigned
+            if not first._splicedonorgraph or not second._spliceacceptorgraph:
+                continue
+            # check if both have aligned sites in the collection
+            if not first._splicedonorgraph.alignedsites or not second._spliceacceptorgraph.alignedsites:
+                # TODO! if on of both has aligned sites, then mark sites in the collection
+                # of the correct phase. This can be maybe done by splitting the collection??
+                continue
+
+            # okay, both CBGs have alignes splice site graphs
+            best_donor_phase = first._splicedonorgraph.alignedsites[0].phase()
+            best_accep_phase = second._spliceacceptorgraph.alignedsites[0].phase()
+            if best_donor_phase == best_accep_phase:
+                # optimal acceptor & donor site have corresponding phases
+                continue
+
+
+            # NEW NEW if phases inequal BUT both high scoring, try to find a
+            # tiny exon in between these CBGs
+            intersectsize = len(first.node_set().intersection(second.get_nodes()))
+            sitecount     = first._splicedonorgraph.alignedsites[0].node_count() + second._spliceacceptorgraph.alignedsites[0].node_count()
+            if intersectsize == 0 and sitecount >= (self.EXACT_SG_NODE_COUNT*2)-1:
+                results = self.construct_intermediate_tinyexon_with_known_splicesites(first,second)
+
+
+            # assign the optimal phase
+            phase_scores = {0:0.0,1:0.0,2:0.0}
+            for phase in phase_scores.keys():
+                for dsg in first._splicedonorgraph.alignedsites:
+                    if dsg.__class__.__name__ == 'DonorSiteCollectionGraph':
+                        break
+                    if dsg.phase() == phase:
+                        phase_scores[phase]+=dsg.cumulative_score()
+                        break
+                for asg in second._spliceacceptorgraph.alignedsites:
+                    if asg.__class__.__name__ == 'AcceptorSiteCollectionGraph':
+                        break
+                    if asg.phase() == phase:
+                        phase_scores[phase]+=asg.cumulative_score()
+                        break
+            # get the maximal phase score and the corresponding phase
+            max_score = max(phase_scores.values())
+            optimal_phase = None
+            for phase,phasescore in phase_scores.iteritems():
+                if phasescore == max_score:
+                    optimal_phase = phase
+                    break
+            # now adjust donor or acceptor
+            # if both must be adjuested => not expected
+            if best_donor_phase != optimal_phase and best_accep_phase != optimal_phase:
+                print "BOTH SITES DO NOT MATCH OPTIMAL PHASE!!!!!"
+            elif best_donor_phase != optimal_phase:
+                for ii in range(0,len(first._splicedonorgraph.alignedsites)):
+                    dsg = first._splicedonorgraph.alignedsites[ii]
+                    if dsg.phase() == optimal_phase:
+                        # set this aligned site in the front of the list
+                        first._splicedonorgraph.alignedsites.pop(ii)
+                        first._splicedonorgraph.alignedsites.insert(0,dsg)
+                        print "DONOR adjusted from %s to %s; scores are %s" % (best_donor_phase,optimal_phase,phase_scores)
+                        break
+            elif best_accep_phase != optimal_phase:
+                for ii in range(0,len(second._spliceacceptorgraph.alignedsites)):
+                    asg = second._spliceacceptorgraph.alignedsites[ii]
+                    if asg.phase() == optimal_phase:
+                        # set this aligned site in the front of the list
+                        second._spliceacceptorgraph.alignedsites.pop(ii)
+                        second._spliceacceptorgraph.alignedsites.insert(0,asg)
+                        print "ACCEPTOR adjusted from %s to %s; scores are %s" % (best_accep_phase,optimal_phase,phase_scores)
+                        break
+            else:
+                # this cannot happen; one or both must be inequal
+                print "SPLICE SITE MATCHTING -> THIS CAN NOT HAPPEN"
+                pass
+
+    # end of function find_optimal_splicesites_of_uniform_phase
+
+
+    def scan_and_align_all_codingblock_boundaries(self):
+        """ TODO: move functionality to here """
+        # if splice sites are not projected, do it now
+        if not self._HAS_INTRONS_PROJECTED: self.project_missing_introns()
+
+
+        startTime = time()
+        # loop over the gene structure and scan/collect/align all sites
+        for pos in range(0,len(self)):
+            # get current CBG, but ignore if IS_IGNORED
+            sg = self.codingblockgraphs[pos]
+            if sg.IS_IGNORED: continue  # skip IGNORED codingblocks
+
+            print "scan_and_align_all_codingblock_boundaries", pos, time()-startTime
+            startTime = time()
+
+            # get next and prev CBGs
+            prev = None
+            next = None
+            if pos >= 1: prev = self.codingblockgraphs[pos-1]
+            if pos < len(self)-1: next = self.codingblockgraphs[pos+1]
+            if prev and prev.IS_IGNORED: prev = None
+            if next and next.IS_IGNORED: next = None
+
+            # dicts for forced 5p and 3p ends
+            forced_3p_ends = {}
+            forced_5p_ends = {}
+
+            if sg.IS_3P_SPLITTED:
+                # splitted on right/3p side -> affects the DONOR sequences
+                omsr = sg.overall_minimal_spanning_range()
+                # gather mutual organisms. 2 cases possible:
+                # 1) next ISA CBG, originated from a splitting action
+                # 2) next ISA lsrCBG, originated by a joining action
+                if next.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+                    mutual_orgs = sg.organism_set()
+                else:
+                    mutual_orgs = sg.organism_set().intersection( next.organism_set() )
+                # loop over mutual organism
+                for org in mutual_orgs:
+                    orf_of_org = sg.get_orfs_of_graph(organism=org)[0]
+                    node   = sg.node_by_organism(org)
+                    posAA  = max( omsr[node] ) + 1
+                    posDNA = orf_of_org.proteinpos2dnapos(posAA)
+                    cbgEnd = CodingBlockEnd(posDNA)
+                    forced_3p_ends[org] = cbgEnd
+                if next.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+                    sg._forced_3p_ends = forced_3p_ends
+
+            if sg.IS_5P_SPLITTED:
+                # splitted on right/3p side -> affects the ACCEPTOR sequences
+                omsr = sg.overall_minimal_spanning_range()
+                # loop over mutual organism
+                # gather mutual organisms. 2 cases possible:
+                # 1) prev ISA CBG, originated from a splitting action
+                # 2) prev ISA lsrCBG, originated by a joining action
+                if prev.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+                    mutual_orgs = sg.organism_set()
+                else:
+                    mutual_orgs = sg.organism_set().intersection( prev.organism_set() )
+                # loop over mutual organism
+                for org in mutual_orgs:
+                    orf_of_org = sg.get_orfs_of_graph(organism=org)[0]
+                    node   = sg.node_by_organism(org)
+                    posAA  = min( omsr[node] )
+                    posDNA = orf_of_org.proteinpos2dnapos(posAA)
+                    cbgSta = CodingBlockStart(posDNA)
+                    forced_5p_ends[org] = cbgSta
+                if prev.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+                    sg._forced_5p_ends = forced_5p_ends
+
+
+            if sg.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+                sg._forced_3p_ends = forced_3p_ends
+                sg._forced_5p_ends = forced_5p_ends
+                # done, no splice sites etc. for a LowSimilarityRegionCodingBlockGraph
+                continue
+
+
+            print time()-startTime
+
+            # make AlignedStopCodonGraph
+            sg.align_stop_codons()
+
+
+            print time()-startTime
+
+
+            if not sg.IS_3P_SPLITTED or (next and next.__class__.__name__ != 'LowSimilarityRegionCodingBlockGraph'):
+                # make SpliceSiteCollectionGraphs
+
+                checker = time()
+                sg.harvest_elegiable_donor_sites(projected_donors=self._projected_donor_sites[pos],forced_codingblock_ends=forced_3p_ends,next=next)
+                print "scanning took:", time()-checker, "found:", sg._splicedonorgraph.node_count(), "sites"
+
+                # do site alignment of donors
+                sg._splicedonorgraph.collection2alignedsites(edges=self.EXACT_SG_NODE_COUNT-1,minimal_edges=2)
+
+                # if best site != self.EXACT_SG_NODE_COUNT -> search with splice site phase shift
+                if sg._splicedonorgraph.alignedsites and (sg._splicedonorgraph.alignedsites[0].node_count() != self.EXACT_SG_NODE_COUNT or\
+                sg._splicedonorgraph.alignedsites[0].organism_set_size() != self.EXACT_SG_NODE_COUNT):
+                    print "allow donor splice site phase shift!"
+                    ###print sg._splicedonorgraph.node_count()
+                    ###print len(sg._splicedonorgraph.alignedsites)
+                    ###print sg._splicedonorgraph.alignedsites[0]
+                    sg.harvest_elegiable_donor_sites(allow_phase_shift=True,projected_donors=self._projected_donor_sites[pos],
+                            forced_codingblock_ends=forced_3p_ends,next=next)
+                    sg._splicedonorgraph.collection2alignedsites(edges=self.EXACT_SG_NODE_COUNT-1,minimal_edges=2)
+                    ###print len(sg._splicedonorgraph.alignedsites)
+                    print sg._splicedonorgraph.alignedsites[0]
+
+            try:
+                print time()-startTime, sg._splicedonorgraph.node_count(), len(sg._splicedonorgraph.alignedsites)
+            except:
+                print "no splicedonorgraph"
+
+
+            if not sg.IS_5P_SPLITTED or (prev and prev.__class__.__name__ != 'LowSimilarityRegionCodingBlockGraph'):
+                # make SpliceSiteCollectionGraphs
+                sg.harvest_elegiable_acceptor_sites(projected_acceptors=self._projected_acceptor_sites[pos],forced_codingblock_ends=forced_5p_ends,prev=prev)
+
+                # do site alignment of acceptors
+                sg._spliceacceptorgraph.collection2alignedsites(edges=self.EXACT_SG_NODE_COUNT-1,minimal_edges=2)
+
+                # if best site != self.EXACT_SG_NODE_COUNT -> search with splice site phase shift
+                if sg._spliceacceptorgraph.alignedsites and (sg._spliceacceptorgraph.alignedsites[0].node_count() != self.EXACT_SG_NODE_COUNT or\
+                sg._spliceacceptorgraph.alignedsites[0].organism_set_size() != self.EXACT_SG_NODE_COUNT):
+                    print "allow acceptor splice site phase shift!"
+                    sg.harvest_elegiable_acceptor_sites(allow_phase_shift=True,projected_acceptors=self._projected_acceptor_sites[pos],
+                            forced_codingblock_ends=forced_5p_ends,prev=prev)
+                    sg._spliceacceptorgraph.collection2alignedsites(edges=self.EXACT_SG_NODE_COUNT-1,minimal_edges=2)
+                    print sg._spliceacceptorgraph.alignedsites[0]
+
+            try:
+                print time()-startTime, sg._spliceacceptorgraph.node_count(), len(sg._spliceacceptorgraph.alignedsites)
+            except:
+                print "no spliceacceptorgraph"
+
+            if sg.IS_FIRST:
+                # make TranslationalStartSiteCollectionGraph
+                sg.harvest_elegiable_tss_sites()
+
+                # do site alignment of TSS
+                sg._startcodongraph.collection2alignedsites(edges=self.EXACT_SG_NODE_COUNT-1)
+
+            print time()-startTime
+
+
+        # TMP HARD EXITING
+        #print "HARD EXIT TMP DEBUG"
+        #sys.exit()
+
+    # end of function scan_and_align_all_codingblock_boundaries
+
+
+    def project_missing_introns(self):
+        """  """
+        # reset projected splice site lists to empty!!
+        self._projected_acceptor_sites = [ {} ]
+        self._projected_donor_sites = []
+        self._HAS_INTRONS_PROJECTED = False
+        for i in range(1,len(self)):
+            # get combinations of 2 neighbouring CBGs
+            combi = self.codingblockgraphs[i-1:i+1]
+            poscombi = (i-1,i)
+            # ignore if one of them IS_IGNORED
+            if True in [ cbg.IS_IGNORED for cbg in combi ]:
+                self._projected_donor_sites.append( {} )
+                self._projected_acceptor_sites.append( {} )
+                continue
+            if [ combi[0].IS_3P_SPLITTED, combi[1].IS_5P_SPLITTED ] == [True,True]:
+                self._projected_donor_sites.append( {} )
+                self._projected_acceptor_sites.append( {} )
+                continue
+            # make intron projections!
+            projected_introns = project_missing_introns(
+                    combi,
+                    aligned_intron_min_aa_length=ALIGNED_INTRON_MIN_AA_LENGTH,
+                    minimal_summedsite_entropy=MINIMAL_PROJECTED_INTRON_SUMMEDSITE_ENTROPY
+                    )
+            # get the (unique) projected donor/acceptor sites from the projected introns
+            proj_acceptors, proj_donors = projectedintrons2projectedsites(projected_introns)
+            self._projected_donor_sites.append( proj_donors )
+            self._projected_acceptor_sites.append( proj_acceptors )
+
+        # and append empty dict to donors for the final one
+        self._projected_donor_sites.append( {} )
+        self._HAS_INTRONS_PROJECTED = True
+
+    # end of function project_missing_introns
+
+# end of class RecentlyDeprecated
+
+
+
+def _get_cbg_left_site(cbg,organism):
+    """
+    Return tuple is of shape (site, Boolean)
+        site is a PSSM/GFF site or None
+        Boolean is True or False, weather or not the site is obtained from a True alignment or a False estimation
+    """
+    if cbg.IS_FIRST:
+        if not cbg._startcodongraph:
+            # no startcodon graph set yet!
+            return ( None, False )
+        elif cbg._startcodongraph.alignedsites and cbg._startcodongraph.alignedsites[0].__class__.__name__ == 'TranslationalStartSiteCollectionGraph':
+            # the best and only `aligned` site is the collection it self
+            if organism in cbg._startcodongraph.organism_set():
+                # return the 'optimal' site
+                tss = cbg._startcodongraph.get_optimal_single_site(organism)
+                return ( tss, False )
+            else:
+                # hmm.. .we can not find an eligiable tss although this is the first codingblock graph
+                return ( None, False )
+        elif cbg._startcodongraph.alignedsites and organism in cbg._startcodongraph.alignedsites[0].organism_set():
+            tss = cbg._startcodongraph.alignedsites[0].get_organism_objects(organism)[0]
+            return ( tss, True )
+        elif cbg._startcodongraph.alignedsites and organism in cbg._startcodongraph.organism_set():
+            # return the 'optimal' site, given an optimal aligned site
+            # where this organism is missing from
+            tss = cbg._startcodongraph.get_optimal_single_site(organism)
+            return ( tss, False )
+        elif cbg._startcodongraph and organism in cbg._startcodongraph.organism_set():
+            # return the 'optimal' site
+            tss = cbg._startcodongraph.get_optimal_single_site(organism)
+            return ( tss, False )
+        else:
+            # hmm.. .we can not find an eligiable tss although this is the first codingblock graph
+            return ( None, False )
+    elif cbg.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+        # LowSimilarityRegionCodingBlockGraph; fixed sites to mask a false inframe intron
+        boundary = cbg._forced_5p_ends[organism]
+        return ( boundary, True )
+    elif cbg.IS_5P_SPLITTED:
+        # unambigious sites are assigned to all or some organisms
+        if cbg._forced_5p_ends:
+            # Prev one is a LowSimilarityRegionCodingBlockGraph; fixed sites to mask a false inframe intron
+            boundary = cbg._forced_5p_ends[organism]
+            return ( boundary, True )
+        elif cbg._spliceacceptorgraph.alignedsites:
+            bestsite = cbg._spliceacceptorgraph.alignedsites[0]
+            if bestsite.__class__.__name__ == 'AcceptorSiteCollectionGraph':
+                # the best and only `aligned` site is the collection it self
+                if organism in cbg._spliceacceptorgraph.organism_set():
+                    # return the 'optimal' site
+                    boundary = cbg._spliceacceptorgraph.get_optimal_single_site(organism)
+                    return ( boundary, False )
+                else:
+                    # hmm.. .we can not find an eligiable acceptor site
+                    return ( None, False )
+            elif bestsite.__class__.__name__ in ['AlignedCbg5pBoundarySiteGraph','AlignedCbg5pMixedSiteGraph'] and organism in bestsite.organism_set():
+                # yes, a perfectly mapped/aligned site and the requested organism occurs in it
+                boundary = bestsite.get_organism_objects(organism)[0]
+                return ( boundary, True )
+            elif bestsite.__class__.__name__ in ['AlignedCbg5pBoundarySiteGraph','AlignedCbg5pMixedSiteGraph'] and organism in cbg._spliceacceptorgraph.organism_set():
+                # hmm ... a perfectly mapped/aligned site BUT the requested organism DOES NOT occur in it
+                # return the 'optimal' site, given an optimal aligned site
+                # where this organism is missing from
+                boundary = cbg._spliceacceptorgraph.get_optimal_single_site(
+                        organism,bestalignedsite=bestsite
+                        )
+                return ( boundary, False )
+            elif cbg._spliceacceptorgraph and organism in cbg._spliceacceptorgraph.organism_set():
+                # return the 'optimal' site
+                boundary = cbg._spliceacceptorgraph.get_optimal_single_site(organism)
+                return ( boundary, False )
+            else:
+                # hmm.. .we can not find an eligiable acceptor site
+                return ( None, False )
+        else:
+            if cbg._spliceacceptorgraph and organism in cbg._spliceacceptorgraph.organism_set():
+                # return the 'optimal' site
+                boundary = cbg._spliceacceptorgraph.get_optimal_single_site(organism)
+                return ( boundary, False )
+            else:
+                # hmm.. .we can not find an eligiable 5p/acceptor boundary site
+                return ( None, False )
+    else:
+        # regular junctione between CBGgraphs (donors,acceptors)
+        # get the CBG interface object
+        cbgIF = cbg._CBGinterface5p
+
+        if cbg._spliceacceptorgraph.alignedsites and cbg._spliceacceptorgraph.alignedsites[0].__class__.__name__ == 'AcceptorSiteCollectionGraph':
+            # the best and only `aligned` site is the collection it self
+            if organism in cbg._spliceacceptorgraph.organism_set():
+                # return the 'optimal' site
+                acceptor = cbg._spliceacceptorgraph.get_optimal_single_site(organism)
+                return ( acceptor, False )
+            else:
+                # hmm.. .we can not find an eligiable acceptor site
+                return ( None, False )
+        elif cbg._spliceacceptorgraph.alignedsites and organism in cbg._spliceacceptorgraph.alignedsites[0].organism_set():
+            # there are aligned sites AND this organism is represented by an
+            # acceptor site in the optimal site. Just return this one.
+            acceptor = cbg._spliceacceptorgraph.alignedsites[0].get_organism_objects(organism)[0]
+            return ( acceptor, True )
+        elif cbg._spliceacceptorgraph.alignedsites and organism in cbg._spliceacceptorgraph.organism_set():
+            # return the 'optimal' site, given an optimal aligned site
+            # where this organism is missing from
+            acceptor = cbg._spliceacceptorgraph.get_optimal_single_site(
+                    organism,
+                    bestalignedsite=cbg._spliceacceptorgraph.alignedsites[0]
+                    )
+            return ( acceptor, False )
+        elif cbg._spliceacceptorgraph and organism in cbg._spliceacceptorgraph.organism_set():
+            # There isn't a single aligned site, just the AcceptorSiteCollectionGraph.
+            # Therfor, return the 'optimal' site for this organism of any given phase
+            acceptor = cbg._spliceacceptorgraph.get_optimal_single_site(organism)
+            return ( acceptor, False )
+        else:
+            # hmm.. .we can not find any eligiable acceptor site
+            return ( None, False )
+
+# end of function _get_cbg_left_site
+
+
+def _get_cbg_right_site(cbg,organism):
+    """
+    Return tuple is of shape (site, Boolean)
+        site is a PSSM/GFF site or None
+        Boolean is True or False, weather or not the site is obtained from a True alignment or a False estimation
+    """
+    if cbg.IS_LAST:
+        if True:
+            # TODO, we did not 'align' the end sites yet on the new way
+            tgaNode = cbg._stopcodongraph.get_organism_nodes(organism)[0]
+            (_org,_orf,stopQpos,stopQdnapos) = tgaNode
+            tgaSite = StopCodon( stopQdnapos )
+            return ( tgaSite, True )
+        else:
+            # hmm.. .we can not find an eligiable stop codon although this is the last codingblock graph
+            return ( None, False )
+    elif cbg.__class__.__name__ == 'LowSimilarityRegionCodingBlockGraph':
+        # LowSimilarityRegionCodingBlockGraph; fixed sites to mask a false inframe intron
+        boundary = cbg._forced_3p_ends[organism]
+        return ( boundary, True )
+    elif cbg.IS_3P_SPLITTED:
+        # unambigious sites are assigned to all or some organisms
+        if cbg._forced_3p_ends:
+            # Next one is a LowSimilarityRegionCodingBlockGraph; fixed sites to mask a false inframe intron
+            boundary = cbg._forced_3p_ends[organism]
+            return ( boundary, True )
+        elif cbg._splicedonorgraph.alignedsites:
+            bestsite = cbg._splicedonorgraph.alignedsites[0]
+            if bestsite.__class__.__name__ == 'DonorSiteCollectionGraph':
+                # the best and only `aligned` site is the collection it self
+                if organism in cbg._splicedonorgraph.organism_set():
+                    # return the 'optimal' site
+                    boundary = cbg._splicedonorgraph.get_optimal_single_site(organism)
+                    return ( boundary, False )
+                else:
+                    # hmm.. .we can not find an eligiable donor site
+                    return ( None, False )
+            elif bestsite.__class__.__name__ in ['AlignedCbg3pBoundarySiteGraph','AlignedCbg3pMixedSiteGraph'] and organism in bestsite.organism_set():
+                # yes, a perfectly mapped/aligned site and the requested organism occurs in it
+                boundary = bestsite.get_organism_objects(organism)[0]
+                return ( boundary, True )
+            elif bestsite.__class__.__name__ in ['AlignedCbg3pBoundarySiteGraph','AlignedCbg3pMixedSiteGraph'] and organism in cbg._splicedonorgraph.organism_set():
+                # hmm ... a perfectly mapped/aligned site BUT the requested organism DOES NOT occur in it
+                # return the 'optimal' site, given an optimal aligned site
+                # where this organism is missing from
+                boundary = cbg._splicedonorgraph.get_optimal_single_site(
+                        organism,bestalignedsite=bestsite
+                        )
+                return ( boundary, False )
+            elif cbg._splicedonorgraph and organism in cbg._splicedonorgraph.organism_set():
+                # return the 'optimal' site
+                boundary = cbg._splicedonorgraph.get_optimal_single_site(organism)
+                return ( boundary, False )
+            else:
+                # hmm.. .we can not find an eligiable donor site
+                return ( None, False )
+        else:
+            if cbg._splicedonorgraph and organism in cbg._splicedonorgraph.organism_set():
+                # return the 'optimal' site
+                boundary = cbg._splicedonorgraph.get_optimal_single_site(organism)
+                return ( boundary, False )
+            else:
+                # hmm.. .we can not find an eligiable 3p/donor boundary site
+                return ( None, False )
+    else:
+        if cbg._splicedonorgraph.alignedsites and cbg._splicedonorgraph.alignedsites[0].__class__.__name__ == 'DonorSiteCollectionGraph':
+            # the best and only `aligned` site is the collection it self
+            if organism in cbg._splicedonorgraph.organism_set():
+                # return the 'optimal' site
+                donor = cbg._splicedonorgraph.get_optimal_single_site(organism)
+                return ( donor, False )
+            else:
+                # hmm.. .we can not find an eligiable donor site
+                return ( None, False )
+        elif cbg._splicedonorgraph.alignedsites and organism in cbg._splicedonorgraph.alignedsites[0].organism_set():
+            donor = cbg._splicedonorgraph.alignedsites[0].get_organism_objects(organism)[0]
+            return ( donor, True )
+        elif cbg._splicedonorgraph.alignedsites and organism in cbg._splicedonorgraph.organism_set():
+            # return the 'optimal' site, given an optimal aligned site
+            # where this organism is missing from
+            donor = cbg._splicedonorgraph.get_optimal_single_site(
+                    organism,
+                    bestalignedsite=cbg._splicedonorgraph.alignedsites[0]
+                    )
+            return ( donor, False )
+        elif cbg._splicedonorgraph and organism in cbg._splicedonorgraph.organism_set():
+            # return the 'optimal' site
+            donor = cbg._splicedonorgraph.get_optimal_single_site(organism)
+            return ( donor, False )
+        else:
+            # hmm.. .we can not find an eligiable donor site
+            return ( None, False )
+
+# end of function _get_cbg_right_site
+

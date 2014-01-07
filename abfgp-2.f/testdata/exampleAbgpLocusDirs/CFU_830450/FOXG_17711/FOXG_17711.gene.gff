@@ -1,0 +1,4 @@
+supercontig_2.82	FO2_FINAL_CALLGENES_1	start_codon	4150	4152	.	+	0	gene_id "FOXG_17711"; transcript_id "FOXT_17711";
+supercontig_2.82	FO2_FINAL_CALLGENES_1	stop_codon	5323	5325	.	+	0	gene_id "FOXG_17711"; transcript_id "FOXT_17711";
+supercontig_2.82	FO2_FINAL_CALLGENES_1	exon	4150	5325	.	+	.	gene_id "FOXG_17711"; transcript_id "FOXT_17711";
+supercontig_2.82	FO2_FINAL_CALLGENES_1	CDS	4150	5322	.	+	0	gene_id "FOXG_17711"; transcript_id "FOXT_17711";

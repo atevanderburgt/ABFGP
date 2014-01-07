@@ -1,0 +1,26 @@
+# python PSSM version 1.0
+# __authors__	"Ate van der Burgt"
+# __license__ 	"MIT"
+# 
+# __init__py
+# pssm.py	the actual code
+# example.mfa	859 non-canonical GC-donors from fungi
+# example.ic	InformationContent file for 117937 cannonical donor sites from 5 fungi
+# REAME		this file
+
+# Python examples of how to work with the python-pssm  package
+from pssm import *
+fname = "example.mfa"
+seqs = dict([ block.strip().split("\n") for block in open(fname).read().split(">")[1:] ])
+IC,nns = obtain_pssm_ic(seqs)
+print_ic(IC)
+IC_DONOR,nns = obtain_pssm_ic(seqs,start=2,end=8,report=True)
+print_ic(IC_DONOR)
+
+pssmObj = Pssm(fname='example.ic')
+pssmObj.max()
+pssmObj.score("ATATATATA")
+pssmObj.pos_max(3)
+pssmObj.pos_max_base(3)
+
+

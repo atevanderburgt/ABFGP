@@ -1,0 +1,8 @@
+supercontig_2.8	FO2_FINAL_CALLGENES_1	start_codon	2324458	2324460	.	+	0	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	stop_codon	2324996	2324998	.	+	0	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	exon	2324346	2324513	.	+	.	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	CDS	2324458	2324513	.	+	0	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	exon	2324597	2324889	.	+	.	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	CDS	2324597	2324889	.	+	1	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	exon	2324943	2325177	.	+	.	gene_id "FOXG_08173"; transcript_id "FOXT_08173";
+supercontig_2.8	FO2_FINAL_CALLGENES_1	CDS	2324943	2324995	.	+	2	gene_id "FOXG_08173"; transcript_id "FOXT_08173";

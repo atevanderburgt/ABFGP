@@ -1,0 +1,12 @@
+chr_2	JGI	exon	3130332	3130730	.	-	.	name "estExt_fgenesh1_pg.C_chr_20827"; transcriptId 108301
+chr_2	JGI	CDS	3130694	3130730	.	-	0	name "estExt_fgenesh1_pg.C_chr_20827"; gene_id 108301; exonNumber 5
+chr_2	JGI	stop_codon	3130694	3130696	.	-	0	name "estExt_fgenesh1_pg.C_chr_20827"
+chr_2	JGI	exon	3130785	3131227	.	-	.	name "estExt_fgenesh1_pg.C_chr_20827"; transcriptId 108301
+chr_2	JGI	CDS	3130785	3131227	.	-	1	name "estExt_fgenesh1_pg.C_chr_20827"; gene_id 108301; exonNumber 4
+chr_2	JGI	exon	3131292	3131627	.	-	.	name "estExt_fgenesh1_pg.C_chr_20827"; transcriptId 108301
+chr_2	JGI	CDS	3131292	3131627	.	-	0	name "estExt_fgenesh1_pg.C_chr_20827"; gene_id 108301; exonNumber 3
+chr_2	JGI	exon	3131748	3131901	.	-	.	name "estExt_fgenesh1_pg.C_chr_20827"; transcriptId 108301
+chr_2	JGI	CDS	3131748	3131901	.	-	0	name "estExt_fgenesh1_pg.C_chr_20827"; gene_id 108301; exonNumber 2
+chr_2	JGI	exon	3131999	3132135	.	-	.	name "estExt_fgenesh1_pg.C_chr_20827"; transcriptId 108301
+chr_2	JGI	CDS	3131999	3132066	.	-	1	name "estExt_fgenesh1_pg.C_chr_20827"; gene_id 108301; exonNumber 1
+chr_2	JGI	start_codon	3132064	3132066	.	-	0	name "estExt_fgenesh1_pg.C_chr_20827"

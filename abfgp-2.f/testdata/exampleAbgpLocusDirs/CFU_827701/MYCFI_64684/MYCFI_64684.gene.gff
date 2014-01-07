@@ -1,0 +1,8 @@
+scaffold_13	JGI	exon	1534826	1534861	.	+	.	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"; transcriptId 64684
+scaffold_13	JGI	CDS	1534826	1534861	.	+	0	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"; proteinId 64684; exonNumber 1
+scaffold_13	JGI	start_codon	1534826	1534828	.	+	0	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"
+scaffold_13	JGI	exon	1534912	1535933	.	+	.	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"; transcriptId 64684
+scaffold_13	JGI	CDS	1534912	1535933	.	+	0	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"; proteinId 64684; exonNumber 2
+scaffold_13	JGI	exon	1535988	1536462	.	+	.	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"; transcriptId 64684
+scaffold_13	JGI	CDS	1535988	1536462	.	+	2	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"; proteinId 64684; exonNumber 3
+scaffold_13	JGI	stop_codon	1536460	1536462	.	+	0	gene_id "MYCFI_64684"; name "fgenesh1_pm.C_scaffold_13000065"

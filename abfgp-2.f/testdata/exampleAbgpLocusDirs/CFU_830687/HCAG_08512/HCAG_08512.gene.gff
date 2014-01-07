@@ -1,0 +1,16 @@
+supercont1.11	HC1_FINAL_CALLGENES_3	start_codon	888001	888003	.	-	0	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	stop_codon	886429	886431	.	-	0	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	887952	888053	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	887952	888003	.	-	0	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	887877	887892	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	887877	887892	.	-	2	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	887648	887801	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	887648	887801	.	-	1	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	887226	887567	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	887226	887567	.	-	0	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	886782	887119	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	886782	887119	.	-	0	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	886578	886691	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	886578	886691	.	-	1	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	exon	886429	886465	.	-	.	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";
+supercont1.11	HC1_FINAL_CALLGENES_3	CDS	886432	886465	.	-	1	gene_id "HCAG_08512"; transcript_id "HCAG_08512T0";

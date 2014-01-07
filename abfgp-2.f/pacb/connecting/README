@@ -1,0 +1,53 @@
+Connecting algorithms for python-pacb.
+Only possible for PacbPORF class objects.
+
+MAPPING
+    exon1-intron1-exon2
+    exon1-intron1-exon2
+FUNCTION: mapping.merge_pacbporfs_with_introns()
+
+PROJECTING
+    exon12
+    exon1-intron1-exon2
+FUNCTION: projection.merge_pacbporfs_by_intron_in_sbjct()
+FUNCTION: projection.merge_pacbporfs_by_intron_in_query()
+FUNCTION: projection.merge_pacbporfs_by_inframe_intron_in_sbjct()
+FUNCTION: projection.merge_pacbporfs_by_inframe_intron_in_query()
+
+
+PROJECTING
+    exon12
+    exon1-intron1-tiny1-intron2-exon2
+FUNCTION: projection.merge_pacbporfs_by_intron_tinyexon_intron_in_query()
+FUNCTION: projection.merge_pacbporfs_by_intron_tinyexon_intron_in_sbjct()
+
+
+MAPPING
+    exon1-intron1-tiny1-intron2-exon2
+    exon1-intron1-tiny1-intron2-exon2
+FUNCTION:
+FUNCTION:
+
+MAPPING
+    independant_closeby_intron_gain
+FUNCTION: mapping.merge_pacbporfs_with_closeby_independant_introns()
+
+MAPPING
+    exon1-intron1PHS-exon2
+    exon1-intron1PHS-exon2
+FUNCTION: mapping.merge_pacbporfs_with_phase_shift_introns()
+
+
+PROJECTING/MAPPING
+    exon12-intron1-exon3
+    exon1-intron1-tiny1-intron2-exon2
+FUNCTION:
+FUNCTION:
+
+
+PROJECTING/MAPPING
+    exon1-SEQUENCEERROR-exon2
+    exon1
+FUNCTION:
+FUNCTION:
+

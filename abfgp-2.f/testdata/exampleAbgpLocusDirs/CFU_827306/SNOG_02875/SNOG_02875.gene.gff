@@ -1,0 +1,12 @@
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	start_codon	659972	659974	.	-	0	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	stop_codon	657946	657948	.	-	0	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	exon	659940	659974	.	-	.	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	CDS	659940	659974	.	-	0	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	exon	659731	659891	.	-	.	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	CDS	659731	659891	.	-	1	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	exon	659594	659684	.	-	.	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	CDS	659594	659684	.	-	2	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	exon	658111	659547	.	-	.	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	CDS	658111	659547	.	-	1	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	exon	657946	658060	.	-	.	gene_id "SNOG_02875"; transcript_id "SNOT_02875";
+Phaeosphaeria%20nodorum%20supercontig%201.4	SN1_CALLGENES_5	CDS	657949	658060	.	-	1	gene_id "SNOG_02875"; transcript_id "SNOT_02875";

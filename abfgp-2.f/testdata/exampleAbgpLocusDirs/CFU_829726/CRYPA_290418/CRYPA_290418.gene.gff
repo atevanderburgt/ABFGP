@@ -1,0 +1,6 @@
+scaffold_4	JGI	exon	3140420	3141302	.	+	.	gene_id "CRYPA_290418"; name "estExt_Genewise1Plus.C_41776"; transcriptId 290418
+scaffold_4	JGI	CDS	3140420	3141302	.	+	0	gene_id "CRYPA_290418"; name "estExt_Genewise1Plus.C_41776"; proteinId 290418; exonNumber 1
+scaffold_4	JGI	start_codon	3140420	3140422	.	+	0	gene_id "CRYPA_290418"; name "estExt_Genewise1Plus.C_41776"
+scaffold_4	JGI	exon	3141488	3142419	.	+	.	gene_id "CRYPA_290418"; name "estExt_Genewise1Plus.C_41776"; transcriptId 290418
+scaffold_4	JGI	CDS	3141488	3142242	.	+	1	gene_id "CRYPA_290418"; name "estExt_Genewise1Plus.C_41776"; proteinId 290418; exonNumber 2
+scaffold_4	JGI	stop_codon	3142240	3142242	.	+	0	gene_id "CRYPA_290418"; name "estExt_Genewise1Plus.C_41776"

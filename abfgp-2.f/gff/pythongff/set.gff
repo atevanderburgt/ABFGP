@@ -1,0 +1,15 @@
+HSU12202	genbank	ATG	211	213	.	+	0	
+HSU12202	genbank	exon	1657	1722	.	+	0	
+HSU12202	genbank	exon	1816	2025	.	+	0	
+HSU12202	genbank	exon	3406	3516	.	+	0	
+HSU12202	genbank	TERM	3922	3924	.	+	0	
+
+HSU12202	GenPred	exon	344	346	.	+	0	
+HSU12202	GenPred	exon	1657	1722	.	+	0	
+HSU12202	GenPred	exon	1816	2025	.	+	0	
+HSU12202	GenPred	exon	3406	3516	.	+	0	
+HSU12202	GenPred	exon	4544	4552	.	+	0	
+
+HSU12202	EHMM	exon	1651	1722	.	+	0	
+HSU12202	EHMM	exon	1816	2025	.	+	0	
+HSU12202	EHMM	exon	3406	3523	.	+	0	

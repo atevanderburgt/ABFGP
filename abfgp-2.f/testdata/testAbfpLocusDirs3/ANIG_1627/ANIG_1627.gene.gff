@@ -1,0 +1,8 @@
+supercontig_1.7	ANIG1_INSERTGTF_6	start_codon	1397913	1397915	.	+	0	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	stop_codon	1398765	1398767	.	+	0	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	exon	1397913	1398011	.	+	.	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	CDS	1397913	1398011	.	+	0	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	exon	1398367	1398436	.	+	.	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	CDS	1398367	1398436	.	+	0	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	exon	1398520	1398767	.	+	.	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";
+supercontig_1.7	ANIG1_INSERTGTF_6	CDS	1398520	1398764	.	+	2	gene_id "fge1_pm_C_7000222"; transcript_id "fge1_pm_C_7000222.1";

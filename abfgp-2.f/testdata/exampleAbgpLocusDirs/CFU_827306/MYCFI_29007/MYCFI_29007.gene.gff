@@ -1,0 +1,8 @@
+scaffold_1	JGI	exon	7944928	7945114	.	+	.	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"; transcriptId 29007
+scaffold_1	JGI	CDS	7944928	7945114	.	+	0	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"; proteinId 29007; exonNumber 1
+scaffold_1	JGI	start_codon	7944928	7944930	.	+	0	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"
+scaffold_1	JGI	exon	7945175	7946741	.	+	.	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"; transcriptId 29007
+scaffold_1	JGI	CDS	7945175	7946741	.	+	1	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"; proteinId 29007; exonNumber 2
+scaffold_1	JGI	exon	7946795	7946906	.	+	.	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"; transcriptId 29007
+scaffold_1	JGI	CDS	7946795	7946906	.	+	2	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"; proteinId 29007; exonNumber 3
+scaffold_1	JGI	stop_codon	7946904	7946906	.	+	0	gene_id "MYCFI_29007"; name "e_gw1.1.1675.1"

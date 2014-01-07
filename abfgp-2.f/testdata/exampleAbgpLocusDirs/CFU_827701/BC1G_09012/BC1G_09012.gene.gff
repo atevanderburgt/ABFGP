@@ -1,0 +1,16 @@
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	start_codon	102504	102506	.	-	0	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	stop_codon	100338	100340	.	-	0	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	102444	102506	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	102444	102506	.	-	0	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	101879	102304	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	101879	102304	.	-	0	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	101546	101807	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	101546	101807	.	-	0	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	101179	101491	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	101179	101491	.	-	2	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	100888	101127	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	100888	101127	.	-	1	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	100747	100832	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	100747	100832	.	-	1	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	exon	100338	100483	.	-	.	gene_id "BC1G_09012"; transcript_id "BC1T_09012";
+Botrytis%20cinerea%20supercontig%201.52	BC1_FINAL_CALLGENES_1	CDS	100341	100483	.	-	2	gene_id "BC1G_09012"; transcript_id "BC1T_09012";

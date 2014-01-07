@@ -1,0 +1,10 @@
+scaffold_6	JGI	exon	2568021	2568517	.	-	.	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; transcriptId 341138
+scaffold_6	JGI	CDS	2568021	2568517	.	-	0	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; proteinId 341138; exonNumber 4
+scaffold_6	JGI	stop_codon	2568021	2568023	.	-	0	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"
+scaffold_6	JGI	exon	2568583	2569324	.	-	.	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; transcriptId 341138
+scaffold_6	JGI	CDS	2568583	2569324	.	-	2	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; proteinId 341138; exonNumber 3
+scaffold_6	JGI	exon	2569404	2569690	.	-	.	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; transcriptId 341138
+scaffold_6	JGI	CDS	2569404	2569690	.	-	0	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; proteinId 341138; exonNumber 2
+scaffold_6	JGI	exon	2569795	2569909	.	-	.	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; transcriptId 341138
+scaffold_6	JGI	CDS	2569795	2569909	.	-	2	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"; proteinId 341138; exonNumber 1
+scaffold_6	JGI	start_codon	2569907	2569909	.	-	0	gene_id "CRYPA_341138"; name "fgenesh1_pm.6_#_447"

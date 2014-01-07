@@ -1,0 +1,10 @@
+supercont3.10	FV3_FINAL_CALLGENES_1	start_codon	1618095	1618097	.	-	0	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	stop_codon	1616467	1616469	.	-	0	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	exon	1617770	1618254	.	-	.	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	CDS	1617770	1618097	.	-	0	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	exon	1617210	1617668	.	-	.	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	CDS	1617210	1617668	.	-	2	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	exon	1616659	1617154	.	-	.	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	CDS	1616659	1617154	.	-	2	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	exon	1614583	1616503	.	-	.	gene_id "FVEG_08266"; transcript_id "FVET_08280";
+supercont3.10	FV3_FINAL_CALLGENES_1	CDS	1616470	1616503	.	-	1	gene_id "FVEG_08266"; transcript_id "FVET_08280";

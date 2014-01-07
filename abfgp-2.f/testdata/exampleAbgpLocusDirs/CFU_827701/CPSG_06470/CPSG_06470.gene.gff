@@ -1,0 +1,12 @@
+supercont1.4	CPS1_FINAL_CALLGENES_1	start_codon	3025475	3025477	.	-	0	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	stop_codon	3023579	3023581	.	-	0	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	exon	3025363	3025557	.	-	.	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	CDS	3025363	3025477	.	-	0	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	exon	3025281	3025292	.	-	.	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	CDS	3025281	3025292	.	-	2	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	exon	3024941	3025221	.	-	.	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	CDS	3024941	3025221	.	-	2	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	exon	3024126	3024867	.	-	.	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	CDS	3024126	3024867	.	-	0	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	exon	3023546	3024072	.	-	.	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";
+supercont1.4	CPS1_FINAL_CALLGENES_1	CDS	3023582	3024072	.	-	2	gene_id "CPSG_06470"; transcript_id "CPSG_06470T0";

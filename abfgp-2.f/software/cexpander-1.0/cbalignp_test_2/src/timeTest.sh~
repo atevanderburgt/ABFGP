@@ -1,0 +1,3 @@
+date
+./cbalignp -i testN.fasta -n -D DNAmatrix.txt -S -o 5 -e 2 -R -P -N 100 > results.out
+date

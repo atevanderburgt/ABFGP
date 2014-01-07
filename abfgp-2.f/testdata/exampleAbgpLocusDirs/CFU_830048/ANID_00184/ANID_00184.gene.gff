@@ -1,0 +1,10 @@
+supercontig_1.5	AN1_FINAL_CALLGENES_2	start_codon	114973	114975	.	+	0	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	stop_codon	115640	115642	.	+	0	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	exon	114973	114975	.	+	.	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	CDS	114973	114975	.	+	0	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	exon	115059	115158	.	+	.	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	CDS	115059	115158	.	+	0	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	exon	115247	115377	.	+	.	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	CDS	115247	115377	.	+	2	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	exon	115451	115642	.	+	.	gene_id "ANID_00184"; transcript_id "ANID_00184T0";
+supercontig_1.5	AN1_FINAL_CALLGENES_2	CDS	115451	115639	.	+	0	gene_id "ANID_00184"; transcript_id "ANID_00184T0";

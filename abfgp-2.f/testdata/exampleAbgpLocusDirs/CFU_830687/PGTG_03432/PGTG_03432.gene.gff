@@ -1,0 +1,16 @@
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	start_codon	72087	72089	.	-	0	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	stop_codon	70497	70499	.	-	0	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	72053	72153	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	72053	72089	.	-	0	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	71882	71981	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	71882	71981	.	-	2	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	71506	71748	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	71506	71748	.	-	1	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	71357	71429	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	71357	71429	.	-	1	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	71179	71280	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	71179	71280	.	-	0	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	70956	71093	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	70956	71093	.	-	0	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	exon	70407	70874	.	-	.	gene_id "PGTG_03432"; transcript_id "PGTT_03432";
+supercontig_2.7	PG_tritici_V2_FINAL_CALLGENES_1	CDS	70500	70874	.	-	0	gene_id "PGTG_03432"; transcript_id "PGTT_03432";

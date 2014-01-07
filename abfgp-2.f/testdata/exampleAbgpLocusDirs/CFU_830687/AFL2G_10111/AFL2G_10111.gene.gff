@@ -1,0 +1,14 @@
+supercontig_2.12	AFL2_CALLGENES_3	start_codon	263803	263805	.	+	0	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	stop_codon	265386	265388	.	+	0	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	exon	263803	263858	.	+	.	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	CDS	263803	263858	.	+	0	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	exon	264039	264192	.	+	.	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	CDS	264039	264192	.	+	1	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	exon	264276	264617	.	+	.	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	CDS	264276	264617	.	+	0	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	exon	264702	265039	.	+	.	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	CDS	264702	265039	.	+	0	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	exon	265093	265206	.	+	.	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	CDS	265093	265206	.	+	1	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	exon	265343	265682	.	+	.	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";
+supercontig_2.12	AFL2_CALLGENES_3	CDS	265343	265385	.	+	1	gene_id "AFL2G_10111"; transcript_id "AFL2T_10111";

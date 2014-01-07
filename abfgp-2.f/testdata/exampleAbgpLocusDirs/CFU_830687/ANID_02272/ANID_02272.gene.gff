@@ -1,0 +1,16 @@
+supercontig_1.37	AN1_FINAL_CALLGENES_2	start_codon	65350	65352	.	-	0	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	stop_codon	63912	63914	.	-	0	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	65301	65454	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	65301	65352	.	-	0	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	65194	65209	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	65194	65209	.	-	2	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	64982	65135	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	64982	65135	.	-	1	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	64581	64922	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	64581	64922	.	-	0	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	64180	64517	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	64180	64517	.	-	0	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	64015	64128	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	64015	64128	.	-	1	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	exon	63912	63954	.	-	.	gene_id "ANID_02272"; transcript_id "ANID_02272T0";
+supercontig_1.37	AN1_FINAL_CALLGENES_2	CDS	63915	63954	.	-	1	gene_id "ANID_02272"; transcript_id "ANID_02272T0";

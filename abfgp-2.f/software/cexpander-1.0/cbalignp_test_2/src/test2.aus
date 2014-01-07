@@ -1,0 +1,231 @@
+18
+<<<<<
+Title:celL blaU alignment
+
+The Sequences:
+
+Sequence1: >gi|89305653|gb|EAS03641.1| cyclic nucleotide-binding domain containing protein [Tetrahymena thermophila SB210]
+length1:467
+
+Sequence2: >gi|3411195|gb|AAC31192.1| cGMP-dependent protein kinase type 1 alpha [Oryctolagus cuniculus]
+length2:671
+
+alignment:
+
+a1:MHTNQQSEQKKKNNSLILNNKQIKQINLSLFQINQQNNLGNKDNSKQTSSFNIQYKQNCYSEYTNKMDRKQYENYVNEKLHPLLEKMLIDILQQRPNDPIPFLISWLQKKQSEGGIAAAHAGAKHSQHQDD--------EEKASSDED--DNEDDYVEDLPTAKEKDESK--------GKKPTGRASVSAE--AFGQFNQ-KKAFK--PKVVPKKPEIVQRITKRLSEAFMFSALDENERKIVIDAMEEKKFGKDEYVIKQGDDGDVLYVVDEGELKCEKVFKKGDPPTFLKVYKPGESFGELSLLYNTPRAATIIAQTNSVLYSLDRDTFNNIVKDAAAKKREKYEEFLKKIEILKEMDPYERNKIADALKTITFKKDSLVVKEKCIVKIQQFQKGESGDDFYMIEEGTLQALKTLKPGGQPEVVKEYQNGDYFGELALIKNVPRQATIKCTSNVKLATLDRLAFKRLLGPIDQILAR---NAEAYNKFAQK-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mL:                                                                                                                             S+ ++D        EE+    E     +++ +++L     K +S         G + T    +SAE   +  F+  ++AF+   K    K  I + I   L   FM   L+ ++ + ++D M   ++GKD  +IK+GD G + YV+++G++   +V K+G     L    PG+ FGEL++LYN  R AT+    N  L+++DR  F  I+      K  +Y EFLK +   + +     +K+AD L+   ++ +   +++           G  GD F++I +G +   +   P   P  ++    GD+FGE AL     R A +     V    +DR +FK L+G +D +  +   +AEA  K+  +                                                                                                                                                                                                                                                                                                                                   
+a2:----------------------------------------------------------------------------------------------------------------------------MSELEEDFAKILMLKEERIKELEKRLSEKEEEIQELKRKLHKCQSVLPVPSTHIGPRTTRAQGISAEPQTYRSFHDLRQAFRKFTKFERSKDLIKEAI---LDNDFM-KNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLAYVMEDGKV---EVTKEG---VKLCTMGPGKVFGELAILYNCTRTATVKTLVNVKLWAIDRQCFQTIMMRTGLIKHTEYMEFLKSVPTFQSLPEEILSKLADVLEETHYENEEYSIRQ-----------GARGDTFFIISKGKVNVTREDSPSEDPIFLRTLGKGDWFGEKALQGEDVRTANVIAAEAVTCLVIDRDSFKHLIGGLDDVSNKAYEDAEAKAKYEAEAAFFANLKLSDFNIIDTLGVGGFGRVELVQLKSEESKTFAMKILKKRHIVDTRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRGIDMIEFPKKIAKNAANLIKKLCRDNPSERLGNLKNGVKDIQKHKWFEGFNWEGLRKGTLTPPIIPSVASPTDTSNFDGFPEDNDEPPPDDNSGWDIDF
+
+Specs:
+
+a1_start:1
+a2_start:1
+a1_end  :467
+a2_end  :671
+a1_P: 467,1
+a2_P: 671,1
+
+Scores: 
+
+Score: 313
+Alignment length: 816
+identities: 98/816,12.0098
+Positives: 174/816,21.3235
+Gaps: 494/816,60.5392
+
+self_sim_1:2402
+sRatio_1: 0.130308
+
+self_sim_2:3514
+sRatio_2: 0.0890723
+meanR: 0.10969
+
+alignment type: global
+overhang charge: no
+
+matrix: blosum62
+>>>>>
+<<<<<
+Title:celL blaU alignment
+
+The Sequences:
+
+Sequence1: >gi|89305653|gb|EAS03641.1| cyclic nucleotide-binding domain containing protein [Tetrahymena thermophila SB210]
+length1:467
+
+Sequence2: >gi|3411195|gb|AAC31192.1| cGMP-dependent protein kinase type 1 alpha [Oryctolagus cuniculus]
+length2:671
+
+alignment:
+
+a1:MHTNQQSEQKKKNNSLILNNKQIKQINLSLFQINQQNNLGNKDNSKQTSSFNIQYKQNCYSEYTNKMDRKQYENYVNEKLHPLLEKMLIDILQQRPNDPIPFLISWLQKKQSEGGIAAAHAGAKHSQHQDD--------EEKASSDED--DNEDDYVEDLPTAKEKDESK--------GKKPTGRASVSAE--AFGQFNQ-KKAFK--PKVVPKKPEIVQRITKRLSEAFMFSALDENERKIVIDAMEEKKFGKDEYVIKQGDDGDVLYVVDEGELKCEKVFKKGDPPTFLKVYKPGESFGELSLLYNTPRAATIIAQTNSVLYSLDRDTFNNIVKDAAAKKREKYEEFLKKIEILKEMDPYERNKIADALKTITFKKDSLVVKEKCIVKIQQFQKGESGDDFYMIEEGTLQALKTLKPGGQPEVVKEYQNGDYFGELALIKNVPRQATIKCTSNVKLATLDRLAFKRLLGPIDQILAR---NAEAYNKFAQK-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mL:                                                                                                                             S+ ++D        EE+    E     +++ +++L     K +S         G + T    +SAE   +  F+  ++AF+   K    K  I + I   L   FM   L+ ++ + ++D M   ++GKD  +IK+GD G + YV+++G++   +V K+G     L    PG+ FGEL++LYN  R AT+    N  L+++DR  F  I+      K  +Y EFLK +   + +     +K+AD L+   ++ +   +++           G  GD F++I +G +   +   P   P  ++    GD+FGE AL     R A +     V    +DR +FK L+G +D +  +   +AEA  K+  +                                                                                                                                                                                                                                                                                                                                   
+a2:----------------------------------------------------------------------------------------------------------------------------MSELEEDFAKILMLKEERIKELEKRLSEKEEEIQELKRKLHKCQSVLPVPSTHIGPRTTRAQGISAEPQTYRSFHDLRQAFRKFTKFERSKDLIKEAI---LDNDFM-KNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLAYVMEDGKV---EVTKEG---VKLCTMGPGKVFGELAILYNCTRTATVKTLVNVKLWAIDRQCFQTIMMRTGLIKHTEYMEFLKSVPTFQSLPEEILSKLADVLEETHYENEEYSIRQ-----------GARGDTFFIISKGKVNVTREDSPSEDPIFLRTLGKGDWFGEKALQGEDVRTANVIAAEAVTCLVIDRDSFKHLIGGLDDVSNKAYEDAEAKAKYEAEAAFFANLKLSDFNIIDTLGVGGFGRVELVQLKSEESKTFAMKILKKRHIVDTRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRGIDMIEFPKKIAKNAANLIKKLCRDNPSERLGNLKNGVKDIQKHKWFEGFNWEGLRKGTLTPPIIPSVASPTDTSNFDGFPEDNDEPPPDDNSGWDIDF
+
+Specs:
+
+a1_start:1
+a2_start:1
+a1_end  :467
+a2_end  :671
+a1_P: 467,1
+a2_P: 671,1
+
+Scores: 
+
+Score: 313
+Alignment length: 816
+identities: 98/816,12.0098
+Positives: 174/816,21.3235
+Gaps: 494/816,60.5392
+
+self_sim_1:2402
+sRatio_1: 0.130308
+
+self_sim_2:3514
+sRatio_2: 0.0890723
+meanR: 0.10969
+
+alignment type: global
+overhang charge: no
+
+matrix: blosum62
+>>>>>
+<<<<<
+Title:celL blaU alignment
+
+The Sequences:
+
+Sequence1: >gi|89305653|gb|EAS03641.1| cyclic nucleotide-binding domain containing protein [Tetrahymena thermophila SB210]
+length1:467
+
+Sequence2: >gi|3411195|gb|AAC31192.1| cGMP-dependent protein kinase type 1 alpha [Oryctolagus cuniculus]
+length2:671
+
+alignment:
+
+a1:MHTNQQSEQKKKNNSLILNNKQIKQINLSLFQINQQNNLGNKDNSKQTSSFNIQYKQNCYSEYTNKMDRKQYENYVNEKLHPLLEKMLIDILQQRPNDPIPFLISWLQKKQSEGGIAAAHAGAKHSQHQDD--------EEKASSDED--DNEDDYVEDLPTAKEKDESK--------GKKPTGRASVSAE--AFGQFNQ-KKAFK--PKVVPKKPEIVQRITKRLSEAFMFSALDENERKIVIDAMEEKKFGKDEYVIKQGDDGDVLYVVDEGELKCEKVFKKGDPPTFLKVYKPGESFGELSLLYNTPRAATIIAQTNSVLYSLDRDTFNNIVKDAAAKKREKYEEFLKKIEILKEMDPYERNKIADALKTITFKKDSLVVKEKCIVKIQQFQKGESGDDFYMIEEGTLQALKTLKPGGQPEVVKEYQNGDYFGELALIKNVPRQATIKCTSNVKLATLDRLAFKRLLGPIDQILAR---NAEAYNKFAQK-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mL:                                                                                                                             S+ ++D        EE+    E     +++ +++L     K +S         G + T    +SAE   +  F+  ++AF+   K    K  I + I   L   FM   L+ ++ + ++D M   ++GKD  +IK+GD G + YV+++G++   +V K+G     L    PG+ FGEL++LYN  R AT+    N  L+++DR  F  I+      K  +Y EFLK +   + +     +K+AD L+   ++ +   +++           G  GD F++I +G +   +   P   P  ++    GD+FGE AL     R A +     V    +DR +FK L+G +D +  +   +AEA  K+  +                                                                                                                                                                                                                                                                                                                                   
+a2:----------------------------------------------------------------------------------------------------------------------------MSELEEDFAKILMLKEERIKELEKRLSEKEEEIQELKRKLHKCQSVLPVPSTHIGPRTTRAQGISAEPQTYRSFHDLRQAFRKFTKFERSKDLIKEAI---LDNDFM-KNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLAYVMEDGKV---EVTKEG---VKLCTMGPGKVFGELAILYNCTRTATVKTLVNVKLWAIDRQCFQTIMMRTGLIKHTEYMEFLKSVPTFQSLPEEILSKLADVLEETHYENEEYSIRQ-----------GARGDTFFIISKGKVNVTREDSPSEDPIFLRTLGKGDWFGEKALQGEDVRTANVIAAEAVTCLVIDRDSFKHLIGGLDDVSNKAYEDAEAKAKYEAEAAFFANLKLSDFNIIDTLGVGGFGRVELVQLKSEESKTFAMKILKKRHIVDTRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRGIDMIEFPKKIAKNAANLIKKLCRDNPSERLGNLKNGVKDIQKHKWFEGFNWEGLRKGTLTPPIIPSVASPTDTSNFDGFPEDNDEPPPDDNSGWDIDF
+
+Specs:
+
+a1_start:1
+a2_start:1
+a1_end  :467
+a2_end  :671
+a1_P: 467,1
+a2_P: 671,1
+
+Scores: 
+
+Score: 313
+Alignment length: 816
+identities: 98/816,12.0098
+Positives: 174/816,21.3235
+Gaps: 494/816,60.5392
+
+self_sim_1:2402
+sRatio_1: 0.130308
+
+self_sim_2:3514
+sRatio_2: 0.0890723
+meanR: 0.10969
+
+alignment type: global
+overhang charge: no
+
+matrix: blosum62
+>>>>>
+<<<<<
+Title:celL blaU alignment
+
+The Sequences:
+
+Sequence1: >gi|89305653|gb|EAS03641.1| cyclic nucleotide-binding domain containing protein [Tetrahymena thermophila SB210]
+length1:467
+
+Sequence2: >gi|3411195|gb|AAC31192.1| cGMP-dependent protein kinase type 1 alpha [Oryctolagus cuniculus]
+length2:671
+
+alignment:
+
+a1:MHTNQQSEQKKKNNSLILNNKQIKQINLSLFQINQQNNLGNKDNSKQTSSFNIQYKQNCYSEYTNKMDRKQYENYVNEKLHPLLEKMLIDILQQRPNDPIPFLISWLQKKQSEGGIAAAHAGAKHSQHQDD--------EEKASSDED--DNEDDYVEDLPTAKEKDESK--------GKKPTGRASVSAE--AFGQFNQ-KKAFK--PKVVPKKPEIVQRITKRLSEAFMFSALDENERKIVIDAMEEKKFGKDEYVIKQGDDGDVLYVVDEGELKCEKVFKKGDPPTFLKVYKPGESFGELSLLYNTPRAATIIAQTNSVLYSLDRDTFNNIVKDAAAKKREKYEEFLKKIEILKEMDPYERNKIADALKTITFKKDSLVVKEKCIVKIQQFQKGESGDDFYMIEEGTLQALKTLKPGGQPEVVKEYQNGDYFGELALIKNVPRQATIKCTSNVKLATLDRLAFKRLLGPIDQILAR---NAEAYNKFAQK-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mL:                                                                                                                             S+ ++D        EE+    E     +++ +++L     K +S         G + T    +SAE   +  F+  ++AF+   K    K  I + I   L   FM   L+ ++ + ++D M   ++GKD  +IK+GD G + YV+++G++   +V K+G     L    PG+ FGEL++LYN  R AT+    N  L+++DR  F  I+      K  +Y EFLK +   + +     +K+AD L+   ++ +   +++           G  GD F++I +G +   +   P   P  ++    GD+FGE AL     R A +     V    +DR +FK L+G +D +  +   +AEA  K+  +                                                                                                                                                                                                                                                                                                                                   
+a2:----------------------------------------------------------------------------------------------------------------------------MSELEEDFAKILMLKEERIKELEKRLSEKEEEIQELKRKLHKCQSVLPVPSTHIGPRTTRAQGISAEPQTYRSFHDLRQAFRKFTKFERSKDLIKEAI---LDNDFM-KNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLAYVMEDGKV---EVTKEG---VKLCTMGPGKVFGELAILYNCTRTATVKTLVNVKLWAIDRQCFQTIMMRTGLIKHTEYMEFLKSVPTFQSLPEEILSKLADVLEETHYENEEYSIRQ-----------GARGDTFFIISKGKVNVTREDSPSEDPIFLRTLGKGDWFGEKALQGEDVRTANVIAAEAVTCLVIDRDSFKHLIGGLDDVSNKAYEDAEAKAKYEAEAAFFANLKLSDFNIIDTLGVGGFGRVELVQLKSEESKTFAMKILKKRHIVDTRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRGIDMIEFPKKIAKNAANLIKKLCRDNPSERLGNLKNGVKDIQKHKWFEGFNWEGLRKGTLTPPIIPSVASPTDTSNFDGFPEDNDEPPPDDNSGWDIDF
+
+Specs:
+
+a1_start:1
+a2_start:1
+a1_end  :467
+a2_end  :671
+a1_P: 467,1
+a2_P: 671,1
+
+Scores: 
+
+Score: 313
+Alignment length: 816
+identities: 98/816,12.0098
+Positives: 174/816,21.3235
+Gaps: 494/816,60.5392
+
+self_sim_1:2402
+sRatio_1: 0.130308
+
+self_sim_2:3514
+sRatio_2: 0.0890723
+meanR: 0.10969
+
+alignment type: global
+overhang charge: no
+
+matrix: blosum62
+>>>>>
+<<<<<
+Title:celL blaU alignment
+
+The Sequences:
+
+Sequence1: >gi|89305653|gb|EAS03641.1| cyclic nucleotide-binding domain containing protein [Tetrahymena thermophila SB210]
+length1:467
+
+Sequence2: >gi|3411195|gb|AAC31192.1| cGMP-dependent protein kinase type 1 alpha [Oryctolagus cuniculus]
+length2:671
+
+alignment:
+
+a1:MHTNQQSEQKKKNNSLILNNKQIKQINLSLFQINQQNNLGNKDNSKQTSSFNIQYKQNCYSEYTNKMDRKQYENYVNEKLHPLLEKMLIDILQQRPNDPIPFLISWLQKKQSEGGIAAAHAGAKHSQHQDD--------EEKASSDED--DNEDDYVEDLPTAKEKDESK--------GKKPTGRASVSAE--AFGQFNQ-KKAFK--PKVVPKKPEIVQRITKRLSEAFMFSALDENERKIVIDAMEEKKFGKDEYVIKQGDDGDVLYVVDEGELKCEKVFKKGDPPTFLKVYKPGESFGELSLLYNTPRAATIIAQTNSVLYSLDRDTFNNIVKDAAAKKREKYEEFLKKIEILKEMDPYERNKIADALKTITFKKDSLVVKEKCIVKIQQFQKGESGDDFYMIEEGTLQALKTLKPGGQPEVVKEYQNGDYFGELALIKNVPRQATIKCTSNVKLATLDRLAFKRLLGPIDQILAR---NAEAYNKFAQK-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mL:                                                                                                                             S+ ++D        EE+    E     +++ +++L     K +S         G + T    +SAE   +  F+  ++AF+   K    K  I + I   L   FM   L+ ++ + ++D M   ++GKD  +IK+GD G + YV+++G++   +V K+G     L    PG+ FGEL++LYN  R AT+    N  L+++DR  F  I+      K  +Y EFLK +   + +     +K+AD L+   ++ +   +++           G  GD F++I +G +   +   P   P  ++    GD+FGE AL     R A +     V    +DR +FK L+G +D +  +   +AEA  K+  +                                                                                                                                                                                                                                                                                                                                   
+a2:----------------------------------------------------------------------------------------------------------------------------MSELEEDFAKILMLKEERIKELEKRLSEKEEEIQELKRKLHKCQSVLPVPSTHIGPRTTRAQGISAEPQTYRSFHDLRQAFRKFTKFERSKDLIKEAI---LDNDFM-KNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLAYVMEDGKV---EVTKEG---VKLCTMGPGKVFGELAILYNCTRTATVKTLVNVKLWAIDRQCFQTIMMRTGLIKHTEYMEFLKSVPTFQSLPEEILSKLADVLEETHYENEEYSIRQ-----------GARGDTFFIISKGKVNVTREDSPSEDPIFLRTLGKGDWFGEKALQGEDVRTANVIAAEAVTCLVIDRDSFKHLIGGLDDVSNKAYEDAEAKAKYEAEAAFFANLKLSDFNIIDTLGVGGFGRVELVQLKSEESKTFAMKILKKRHIVDTRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRGIDMIEFPKKIAKNAANLIKKLCRDNPSERLGNLKNGVKDIQKHKWFEGFNWEGLRKGTLTPPIIPSVASPTDTSNFDGFPEDNDEPPPDDNSGWDIDF
+
+Specs:
+
+a1_start:1
+a2_start:1
+a1_end  :467
+a2_end  :671
+a1_P: 467,1
+a2_P: 671,1
+
+Scores: 
+
+Score: 313
+Alignment length: 816
+identities: 98/816,12.0098
+Positives: 174/816,21.3235
+Gaps: 494/816,60.5392
+
+self_sim_1:2402
+sRatio_1: 0.130308
+
+self_sim_2:3514
+sRatio_2: 0.0890723
+meanR: 0.10969
+
+alignment type: global
+overhang charge: no
+
+matrix: blosum62
+>>>>>

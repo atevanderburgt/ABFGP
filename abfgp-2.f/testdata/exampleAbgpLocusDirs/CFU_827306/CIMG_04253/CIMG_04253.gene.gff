@@ -1,0 +1,14 @@
+supercont2.2	CI2_FINAL_CALLGENES_3	start_codon	3332930	3332932	.	-	0	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	stop_codon	3330824	3330826	.	-	0	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	exon	3332901	3333040	.	-	.	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	CDS	3332901	3332932	.	-	0	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	exon	3332693	3332844	.	-	.	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	CDS	3332693	3332844	.	-	1	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	exon	3332548	3332638	.	-	.	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	CDS	3332548	3332638	.	-	2	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	exon	3331943	3332483	.	-	.	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	CDS	3331943	3332483	.	-	1	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	exon	3330985	3331883	.	-	.	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	CDS	3330985	3331883	.	-	0	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	exon	3330742	3330926	.	-	.	gene_id "CIMG_04253"; transcript_id "CIMT_04472";
+supercont2.2	CI2_FINAL_CALLGENES_3	CDS	3330827	3330926	.	-	1	gene_id "CIMG_04253"; transcript_id "CIMT_04472";

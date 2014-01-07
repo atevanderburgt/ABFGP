@@ -1,0 +1,8 @@
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	start_codon	976532	976534	.	+	0	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	stop_codon	977713	977715	.	+	0	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	exon	976532	976583	.	+	.	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	CDS	976532	976583	.	+	0	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	exon	976648	977602	.	+	.	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	CDS	976648	977602	.	+	2	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	exon	977679	977715	.	+	.	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";
+supercont1.11	VD_VdLs.17_CALLGENES_Final_1	CDS	977679	977712	.	+	1	gene_id "VDAG_05941"; transcript_id "VDAG_05941T0";

@@ -1,0 +1,4 @@
+supercontig_1.3	ANIG1_INSERTGTF_6	start_codon	171104	171106	.	-	0	gene_id "e_gw1_3.1368"; transcript_id "e_gw1_3.1368.1";
+supercontig_1.3	ANIG1_INSERTGTF_6	stop_codon	169949	169951	.	-	0	gene_id "e_gw1_3.1368"; transcript_id "e_gw1_3.1368.1";
+supercontig_1.3	ANIG1_INSERTGTF_6	exon	169949	171106	.	-	.	gene_id "e_gw1_3.1368"; transcript_id "e_gw1_3.1368.1";
+supercontig_1.3	ANIG1_INSERTGTF_6	CDS	169952	171106	.	-	0	gene_id "e_gw1_3.1368"; transcript_id "e_gw1_3.1368.1";

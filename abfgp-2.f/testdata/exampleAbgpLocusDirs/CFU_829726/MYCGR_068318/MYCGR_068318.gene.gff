@@ -1,0 +1,6 @@
+chr_2	JGI	exon	1646257	1646669	.	-	.	name "estExt_Genewise1Plus.C_chr_21027"; transcriptId 68318
+chr_2	JGI	CDS	1646257	1646669	.	-	0	name "estExt_Genewise1Plus.C_chr_21027"; gene_id 68318; exonNumber 2
+chr_2	JGI	stop_codon	1646257	1646259	.	-	0	name "estExt_Genewise1Plus.C_chr_21027"
+chr_2	JGI	exon	1646790	1647754	.	-	.	name "estExt_Genewise1Plus.C_chr_21027"; transcriptId 68318
+chr_2	JGI	CDS	1646790	1647651	.	-	2	name "estExt_Genewise1Plus.C_chr_21027"; gene_id 68318; exonNumber 1
+chr_2	JGI	start_codon	1647649	1647651	.	-	0	name "estExt_Genewise1Plus.C_chr_21027"

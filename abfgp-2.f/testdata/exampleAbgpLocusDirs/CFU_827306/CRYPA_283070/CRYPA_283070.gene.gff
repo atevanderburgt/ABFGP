@@ -1,0 +1,10 @@
+scaffold_9	JGI	exon	2571344	2571384	.	+	.	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; transcriptId 283070
+scaffold_9	JGI	CDS	2571344	2571384	.	+	0	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; proteinId 283070; exonNumber 1
+scaffold_9	JGI	start_codon	2571344	2571346	.	+	0	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"
+scaffold_9	JGI	exon	2571459	2571713	.	+	.	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; transcriptId 283070
+scaffold_9	JGI	CDS	2571459	2571713	.	+	2	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; proteinId 283070; exonNumber 2
+scaffold_9	JGI	exon	2571783	2573213	.	+	.	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; transcriptId 283070
+scaffold_9	JGI	CDS	2571783	2573213	.	+	2	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; proteinId 283070; exonNumber 3
+scaffold_9	JGI	exon	2573291	2573632	.	+	.	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; transcriptId 283070
+scaffold_9	JGI	CDS	2573291	2573384	.	+	2	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"; proteinId 283070; exonNumber 4
+scaffold_9	JGI	stop_codon	2573382	2573384	.	+	0	gene_id "CRYPA_283070"; name "estExt_Genewise1.C_91620"

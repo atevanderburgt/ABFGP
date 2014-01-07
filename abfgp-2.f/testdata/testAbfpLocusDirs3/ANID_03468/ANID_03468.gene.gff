@@ -1,0 +1,10 @@
+supercontig_1.58	AN1_FINAL_CALLGENES_2	start_codon	74047	74049	.	-	0	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	stop_codon	73493	73495	.	-	0	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	exon	73997	74192	.	-	.	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	CDS	73997	74049	.	-	0	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	exon	73857	73945	.	-	.	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	CDS	73857	73945	.	-	1	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	exon	73596	73799	.	-	.	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	CDS	73596	73799	.	-	2	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	exon	73303	73545	.	-	.	gene_id "ANID_03468"; transcript_id "ANID_03468T0";
+supercontig_1.58	AN1_FINAL_CALLGENES_2	CDS	73496	73545	.	-	2	gene_id "ANID_03468"; transcript_id "ANID_03468T0";

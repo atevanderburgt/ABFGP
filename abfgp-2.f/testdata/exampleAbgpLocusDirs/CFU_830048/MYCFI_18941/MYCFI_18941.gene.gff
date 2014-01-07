@@ -1,0 +1,6 @@
+scaffold_10	JGI	exon	377684	377863	.	-	.	gene_id "MYCFI_18941"; name "gw1.10.573.1"; transcriptId 18941
+scaffold_10	JGI	CDS	377684	377863	.	-	0	gene_id "MYCFI_18941"; name "gw1.10.573.1"; proteinId 18941; exonNumber 3
+scaffold_10	JGI	exon	377918	378051	.	-	.	gene_id "MYCFI_18941"; name "gw1.10.573.1"; transcriptId 18941
+scaffold_10	JGI	CDS	377918	378051	.	-	0	gene_id "MYCFI_18941"; name "gw1.10.573.1"; proteinId 18941; exonNumber 2
+scaffold_10	JGI	exon	378153	378258	.	-	.	gene_id "MYCFI_18941"; name "gw1.10.573.1"; transcriptId 18941
+scaffold_10	JGI	CDS	378153	378258	.	-	2	gene_id "MYCFI_18941"; name "gw1.10.573.1"; proteinId 18941; exonNumber 1

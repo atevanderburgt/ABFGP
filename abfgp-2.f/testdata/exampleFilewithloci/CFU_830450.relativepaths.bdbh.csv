@@ -1,0 +1,31 @@
+# identifier               : CFU_830450
+# genomedirs_to_ignore     : []
+# genomedirs_to_use        : []
+# search_mode              : BDBH
+# allow_paralogs           : False
+# safeorthologs_ratio      : 0.9
+# maximal_length_ratio     : 1.5
+# maximal_num_loci         : 30
+# minimal_bitscore_ratio   : 0.1
+# minimal_num_loci         : 5
+# minimal_overlap_ratio    : 0.7
+# similarity data
+cfu	anig	CFU_830450	ANIG_0272	319	1.0	0.8026	0.2045	0.1539
+cfu	fveg	CFU_830450	FVEG_12594	288	0.9254	0.7391	0.1846	0.3534
+cfu	fgsg	CFU_830450	FGSG_09109	286	0.9254	0.7467	0.1833	0.354
+cfu	foxg	CFU_830450	FOXG_17711	283	0.9966	0.798	0.1814	0.343
+cfu	aory	CFU_830450	AO090012000917	279	0.9254	0.7296	0.1788	0.1314
+cfu	afla	CFU_830450	AFL2T_03782	279	0.9254	0.7296	0.1788	0.1313
+cfu	anid	CFU_830450	ANID_01332T0	236	0.9288	0.7284	0.1513	0.1121
+cfu	mycfi	CFU_830450	MYCFI_04930	235	0.9254	0.8067	0.1506	0.1209
+# target locus
+testdata/exampleAbgpLocusDirs/CFU_830450/CFU_830450
+# informant loci
+testdata/exampleAbgpLocusDirs/CFU_830450/ANIG_0272
+testdata/exampleAbgpLocusDirs/CFU_830450/FVEG_12594
+testdata/exampleAbgpLocusDirs/CFU_830450/FGSG_09109
+testdata/exampleAbgpLocusDirs/CFU_830450/FOXG_17711
+testdata/exampleAbgpLocusDirs/CFU_830450/AO090012000917
+testdata/exampleAbgpLocusDirs/CFU_830450/AFL2G_03782
+testdata/exampleAbgpLocusDirs/CFU_830450/ANID_01332
+testdata/exampleAbgpLocusDirs/CFU_830450/MYCFI_04930

@@ -1,0 +1,12 @@
+supercontig_2.10	FO2_FINAL_CALLGENES_1	start_codon	706366	706368	.	-	0	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	stop_codon	702625	702627	.	-	0	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	exon	705942	706368	.	-	.	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	CDS	705942	706368	.	-	0	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	exon	704553	705857	.	-	.	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	CDS	704553	705857	.	-	2	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	exon	703194	704497	.	-	.	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	CDS	703194	704497	.	-	2	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	exon	702736	703141	.	-	.	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	CDS	702736	703141	.	-	0	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	exon	702235	702686	.	-	.	gene_id "FOXG_08410"; transcript_id "FOXT_08410";
+supercontig_2.10	FO2_FINAL_CALLGENES_1	CDS	702628	702686	.	-	2	gene_id "FOXG_08410"; transcript_id "FOXT_08410";

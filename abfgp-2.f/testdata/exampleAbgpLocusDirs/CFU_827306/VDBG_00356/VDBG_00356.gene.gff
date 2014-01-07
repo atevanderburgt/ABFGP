@@ -1,0 +1,10 @@
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	start_codon	1125439	1125441	.	-	0	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	stop_codon	1123440	1123442	.	-	0	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	exon	1125398	1125563	.	-	.	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	CDS	1125398	1125441	.	-	0	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	exon	1125084	1125335	.	-	.	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	CDS	1125084	1125335	.	-	1	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	exon	1123571	1125033	.	-	.	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	CDS	1123571	1125033	.	-	1	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	exon	1123225	1123510	.	-	.	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";
+supercont1.1	VA_VaMs.102_CALLGENES_Final_1	CDS	1123443	1123510	.	-	2	gene_id "VDBG_00356"; transcript_id "VDBG_00356T0";

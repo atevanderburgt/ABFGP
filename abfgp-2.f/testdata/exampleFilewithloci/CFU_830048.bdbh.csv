@@ -1,0 +1,29 @@
+# identifier               : CFU_830048
+# genomedirs_to_ignore     : []
+# genomedirs_to_use        : []
+# search_mode              : BDBH
+# allow_paralogs           : False
+# safeorthologs_ratio      : 0.9
+# maximal_length_ratio     : 1.5
+# maximal_num_loci         : 30
+# minimal_bitscore_ratio   : 0.1
+# minimal_num_loci         : 5
+# minimal_overlap_ratio    : 0.7
+# similarity data
+cfu	dotse	CFU_830048	DOTSE_074107	482	1.0	0.7042	0.9451	0.6549
+cfu	mycfi	CFU_830048	MYCFI_18941	150	0.97	0.7	0.2941	0.2152
+cfu	ss1	CFU_830048	SS1T_08466	129	1.0	0.7014	0.2529	0.1765
+cfu	cps	CFU_830048	CPSG_02433T0	128	0.98	0.9245	0.251	0.2397
+cfu	cim	CFU_830048	CIMT_00701	128	0.98	0.9245	0.251	0.2397
+cfu	anid	CFU_830048	ANID_00184T0	125	0.99	0.7021	0.2451	0.1778
+cfu	afla	CFU_830048	AFL2T_06589	109	0.87	1.0	0.2137	0.2433
+# target locus
+/home/avdb/storage/abfgp/dbwarehouse21122009/cfu/loci/CFU_830048
+# informant loci
+/home/avdb/storage/abfgp/dbwarehouse21122009/dotse/loci/DOTSE_074107
+/home/avdb/storage/abfgp/dbwarehouse21122009/mycfi/loci/MYCFI_18941
+/home/avdb/storage/abfgp/dbwarehouse21122009/ss1/loci/SS1G_08466
+/home/avdb/storage/abfgp/dbwarehouse21122009/cps/loci/CPSG_02433
+/home/avdb/storage/abfgp/dbwarehouse21122009/cim/loci/CIMG_00651
+/home/avdb/storage/abfgp/dbwarehouse21122009/anid/loci/ANID_00184
+/home/avdb/storage/abfgp/dbwarehouse21122009/afla/loci/AFL2G_06589

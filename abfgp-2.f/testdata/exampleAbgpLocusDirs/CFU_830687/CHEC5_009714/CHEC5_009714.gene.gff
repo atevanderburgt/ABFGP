@@ -1,0 +1,8 @@
+scaffold_8	JGI	exon	655474	656268	.	-	.	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"; transcriptId 9714
+scaffold_8	JGI	CDS	655783	656268	.	-	0	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"; proteinId 9714; exonNumber 3
+scaffold_8	JGI	stop_codon	655783	655785	.	-	0	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"
+scaffold_8	JGI	exon	656326	656824	.	-	.	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"; transcriptId 9714
+scaffold_8	JGI	CDS	656326	656824	.	-	0	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"; proteinId 9714; exonNumber 2
+scaffold_8	JGI	exon	656924	657204	.	-	.	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"; transcriptId 9714
+scaffold_8	JGI	CDS	656924	656985	.	-	1	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"; proteinId 9714; exonNumber 1
+scaffold_8	JGI	start_codon	656983	656985	.	-	0	gene_id "CHEC5_009714"; name "fgenesh1_kg.C_scaffold_8000039"

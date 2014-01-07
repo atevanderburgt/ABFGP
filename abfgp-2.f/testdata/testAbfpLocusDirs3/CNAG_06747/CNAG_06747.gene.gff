@@ -1,0 +1,10 @@
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	start_codon	157659	157661	.	-	0	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	stop_codon	157101	157103	.	-	0	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	exon	157586	157721	.	-	.	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	CDS	157586	157661	.	-	0	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	exon	157435	157530	.	-	.	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	CDS	157435	157530	.	-	2	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	exon	157188	157375	.	-	.	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	CDS	157188	157375	.	-	2	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	exon	157015	157136	.	-	.	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99
+supercontig_2.2	CNA2_FINAL_CALLGENES_1	CDS	157104	157136	.	-	0	gene_id "CNAG_06747"; transcript_id "CNAG_06747T0"; of Cryptococcus neoformans grubii H99

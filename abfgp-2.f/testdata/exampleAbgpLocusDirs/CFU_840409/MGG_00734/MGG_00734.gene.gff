@@ -1,0 +1,6 @@
+Magnaporthe grisea 70-15 supercontig 5.194	MG5_FINAL_CALLGENES_1	start_codon	1497319	1497321	.	+	0	gene_id "MGG_00734"; transcript_id "MGT_01901";
+Magnaporthe grisea 70-15 supercontig 5.194	MG5_FINAL_CALLGENES_1	stop_codon	1498158	1498160	.	+	0	gene_id "MGG_00734"; transcript_id "MGT_01901";
+Magnaporthe grisea 70-15 supercontig 5.194	MG5_FINAL_CALLGENES_1	exon	1497319	1497589	.	+	.	gene_id "MGG_00734"; transcript_id "MGT_01901";
+Magnaporthe grisea 70-15 supercontig 5.194	MG5_FINAL_CALLGENES_1	CDS	1497319	1497589	.	+	0	gene_id "MGG_00734"; transcript_id "MGT_01901";
+Magnaporthe grisea 70-15 supercontig 5.194	MG5_FINAL_CALLGENES_1	exon	1497742	1498160	.	+	.	gene_id "MGG_00734"; transcript_id "MGT_01901";
+Magnaporthe grisea 70-15 supercontig 5.194	MG5_FINAL_CALLGENES_1	CDS	1497742	1498157	.	+	2	gene_id "MGG_00734"; transcript_id "MGT_01901";

@@ -1,0 +1,6 @@
+supercontig_1.18	AN1_FINAL_CALLGENES_2	start_codon	87436	87438	.	+	0	gene_id "ANID_01332"; transcript_id "ANID_01332T0";
+supercontig_1.18	AN1_FINAL_CALLGENES_2	stop_codon	88660	88662	.	+	0	gene_id "ANID_01332"; transcript_id "ANID_01332T0";
+supercontig_1.18	AN1_FINAL_CALLGENES_2	exon	87436	87800	.	+	.	gene_id "ANID_01332"; transcript_id "ANID_01332T0";
+supercontig_1.18	AN1_FINAL_CALLGENES_2	CDS	87436	87800	.	+	0	gene_id "ANID_01332"; transcript_id "ANID_01332T0";
+supercontig_1.18	AN1_FINAL_CALLGENES_2	exon	87843	88662	.	+	.	gene_id "ANID_01332"; transcript_id "ANID_01332T0";
+supercontig_1.18	AN1_FINAL_CALLGENES_2	CDS	87843	88659	.	+	1	gene_id "ANID_01332"; transcript_id "ANID_01332T0";
