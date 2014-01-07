@@ -27,5 +27,5 @@ Within the abfgp-2.f code trunk an extended README.txt is placed which contains 
 
  8. Explanation of command line options for ABFGP (examples)
  9. How to use ABFGP in your research
-10. The other ABFGP executables (examples)
-11. Abbreviations used in ABFGP code and documentation
+ 10. The other ABFGP executables (examples)
+ 11. Abbreviations used in ABFGP code and documentation
