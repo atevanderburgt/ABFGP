@@ -7,11 +7,8 @@ Published in BMC Bioinformatatics (2013):
 
 Automated alignment-based curation of gene models in filamentous fungi
 
-<<<<<<< HEAD
-Ate van der Burgt, Edouard Severing Jérôme Collemare and Pierre J.G.M. de Wit
-=======
-Ate van der Burgt, Edouard Severing JÃ©rÃ´me Collemare and Pierre J.G.M. de Wit
->>>>>>> a8d33757daa84089bab316a7ffcb92add487cce7
+
+Ate van der Burgt, Edouard Severing, Jérôme Collemare and Pierre J.G.M. de Wit
 
 Correspoding authors:
 ate.vanderburgt@wur.nl
