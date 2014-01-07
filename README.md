@@ -13,7 +13,8 @@ Correspoding authors:
 ate.vanderburgt@wur.nl
 pierre.dewit@wur.nl
 
-# within the abfgp-2.f code trunk an extended README.txt is placed which contains the following sections.
+Within the abfgp-2.f code trunk an extended README.txt is placed which contains the following sections.
+===
 
  1. Installation
  2. Required third party software
